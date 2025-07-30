@@ -49,12 +49,16 @@ def get_image_description(image_urls):
                 {"type": "text", "text": "请你用一句话描述这张图片内容。"}
             ])
             response = vlm.invoke([human_msg])
-            descriptions.append(response.content.strip())
+            
+            # 获取图片文件名或编号
+            filename = os.path.basename(url).split("?")[0][:12]  # 提取图片 ID 前缀
+            descriptions.append(f"[{filename}: {response.content.strip()}]")
 
         except Exception as e:
-            descriptions.append(f"图片处理失败: {str(e)}")
+            descriptions.append(f"[image_{idx+1}: 图片处理失败: {str(e)}]")
 
     return " ".join(descriptions)
+
 
 
 # 判断文字和图片是否匹配
@@ -110,7 +114,7 @@ def process_event(event_json: dict):
         reason = f"一致性判断失败: {str(e)}"
         has_error = True
 
-    # Step 3: 构造 HTML 提示内容
+    # Step 4: 构造 HTML 提示内容
     html_result = f"""
     <p>
       <b>提示：</b>经系统分析，照片内容与事件描述中的
@@ -121,12 +125,14 @@ def process_event(event_json: dict):
     </p>
     """
 
-    # Step 4: 构建新的 processResultData 结构
+    # Step 4: 构建新的 processResultData 结构（仅包含 htmlHint）
     event_json["processResultData"] = {
-        "htmlHint": html_result.strip(),
-        "imageDescription": image_description,
-        "consistencyCheck": "一致" if is_consistent else "不一致"
+        "htmlHint": html_result.strip()
     }
+
+    # Step 4.1: 将 imageDescription 和 consistencyCheck 提升为顶级字段
+    event_json["imageDescription"] = image_description
+    event_json["consistencyCheck"] = "一致" if is_consistent else "不一致"
 
     # Step 5: 处理结果码
     event_json["processResultCode"] = "1" if has_error else "0"
