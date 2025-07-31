@@ -114,7 +114,7 @@ def process_event(event_json: dict):
         reason = f"一致性判断失败: {str(e)}"
         has_error = True
 
-    # Step 4: 构造 HTML 提示内容
+    # Step 3: 构造 HTML 富文本提示内容
     html_result = f"""
     <p>
       <b>提示：</b>经系统分析，照片内容与事件描述中的
@@ -125,52 +125,51 @@ def process_event(event_json: dict):
     </p>
     """
 
-    # Step 4: 构建新的 processResultData 结构（仅包含 htmlHint）
-    event_json["processResultData"] = {
-        "htmlHint": html_result.strip()
+    # Step 4: 构建输出字段
+    result = {
+        "eventId": event_json.get("eventId", ""),
+        "processActionCode": event_json.get("processActionCode", ""),
+        "processResultCode": "1" if has_error else "0",
+        "processResultMsg": (
+            "Success: Event type matched successfully." if is_consistent
+            else "Warning: Event type mismatch detected."
+        ),
+        "processResultData": {
+            "detectedEventType": html_result.strip(),
+            "imageDescription": image_description,
+            "isConsistency": is_consistent
+        },
+        "processStartAt": start_time,
+        "processStartEnd": datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
     }
 
-    # Step 4.1: 将 imageDescription 和 consistencyCheck 提升为顶级字段
-    event_json["imageDescription"] = image_description
-    event_json["consistencyCheck"] = "一致" if is_consistent else "不一致"
+    return result
 
-    # Step 5: 处理结果码
-    event_json["processResultCode"] = "1" if has_error else "0"
-
-    # Step 6: 记录结束时间
-    end_time = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-    event_json["processStartEnd"] = end_time
-
-    return event_json
 
 
 # 测试入口
 if __name__ == "__main__":
     input_event = {
-        "eventId": "SX-2025-06-19-00001",
-        "processResultCode": "",
-        "processActionCode": "EventTypeRecognition",
-        "processResultData": "",
-        "processStartAt": "",
-        "processStartEnd": "",
-        "processDataParams": {
-            "districtName": "福田",
-            "sourceEntity": "城市管家",
-            "sceneType": "泥头车",
-            "reportLocation": "广东省深圳市福田区梅林街道林海山庄",
-            "gridCode": "440304008004003",
-            "reportTime": "2025-06-20 06:48:20",
-            "reporter": "张三",
-            "reportEntity": "城市管家",
-            "longitude": 121.473,
-            "latitude": 31.230,
-            "imageUrls": [
-                "https://city001-bt-test.obs.cn-south-1.myhuaweicloud.com/2025/07/07/811702d688c348f8b0be009cb9b2805d.jpg",
-                "https://city001-bt-test.obs.cn-south-1.myhuaweicloud.com/2025/07/07/7c7e65a9840b45688289c2b0be4da81a.jpg"
-            ],
-            "description": "滨河路。东往西滨河新洲立交处，该车辆超高超载。未密闭，沿途撒落。"
-        }
+    "eventId": "SX-2025-06-19-00001",
+    "processActionCode": "EventTypeRecognition",
+    "processDataParams": {
+        "districtName": "福田",
+        "sourceEntity": "城市管家",
+        "sceneType": "泥头车",
+        "reportLocation": "广东省深圳市福田区梅林街道林海山庄",
+        "gridCode": "440304008004003",
+        "reportTime": "2025-06-20 06:48:20",
+        "reporter": "张三",
+        "reportEntity": "城市管家",
+        "longitude": 121.473,
+        "latitude": 31.23,
+        "imageUrls": [
+            "https://city001-bt-test.obs.cn-south-1.myhuaweicloud.com/2025/07/07/811702d688c348f8b0be009cb9b2805d.jpg",
+            "https://city001-bt-test.obs.cn-south-1.myhuaweicloud.com/2025/07/07/7c7e65a9840b45688289c2b0be4da81a.jpg"
+        ],
+        "description": "滨河路。东往西滨河新洲立交处，该车辆超高超载。未密闭，沿途撒落。"
     }
+}
 
     result = process_event(input_event)
 
