@@ -205,6 +205,65 @@ def subdistrict_office_node(state: State):
     return state
 
 
+# ========== 市政服务第三方企业节点 ==========
+def municipal_services_node(state: State):
+    ticket = state["tickets"][0]
+    original_data = ticket["processDataParams"]
+    image_desc = ticket["imageDescription"]
+
+    base_query = original_data["description"] + "\n" + image_desc
+
+    # ========== 功能1：生成城市管家工单 ==========
+    law_context_caretaker = get_law_context(
+        "./test/faiss_law_index/city_housekeeper_index",
+        base_query + "\n留存基础证据.初步安全防护准备（放警示锥等）.协助交警临时管制（若污染较大）"
+    )
+
+    event_data1 = original_data.copy()
+    event_data1["imageDescription"] = image_desc
+
+    response1 = ask_deepseek(event_data1, law_context_caretaker)
+    pure_response1 = response1.split("</think>")[-1].strip()
+    _, reason1 = extract_target_and_reason(pure_response1)
+
+    caretaker_ticket = {
+        "eventId": ticket.get("eventId", ""),
+        "processActionCode": ticket.get("processActionCode", ""),
+        "processResultData": {
+            "target": "城市管家",
+            "content": reason1,
+            "action": "PUSH_API"
+        }
+    }
+    state["newTickets"].append(caretaker_ticket)
+
+    # ========== 功能2：生成执法队工单 ==========
+    law_context_lawteam = get_law_context(
+        "./test/faiss_law_index/city_housekeeper_index",
+        base_query + "\n案件报送执法队，协助执法队取证"
+    )
+
+    event_data2 = original_data.copy()
+    event_data2["imageDescription"] = image_desc
+
+    response2 = ask_deepseek(event_data2, law_context_lawteam)
+    pure_response2 = response2.split("</think>")[-1].strip()
+    _, reason2 = extract_target_and_reason(pure_response2)
+
+    law_ticket = {
+        "eventId": ticket.get("eventId", ""),
+        "processActionCode": ticket.get("processActionCode", ""),
+        "processResultData": {
+            "target": "执法队",
+            "content": reason2,
+            "action": "PUSH_API"
+        }
+    }
+    state["newTickets"].append(law_ticket)
+
+    return state
+
+
 # ========== 城市管家节点 ==========
 def city_housekeeper_node(state: State):
     new_results = []
@@ -298,7 +357,7 @@ def build_graph():
     graph.add_node("construction_site_node", make_responsibility_node("./faiss_law_index/construction_site_index"))
     graph.add_node("subdistrict_office_node", subdistrict_office_node)
     graph.add_node("city_housekeeper_node", city_housekeeper_node)
-    graph.add_node("municipal_services_node", make_responsibility_node("./faiss_law_index/municipal_services_index"))
+    graph.add_node("municipal_services_node", municipal_services_node)
 
     # 设置起点
     graph.set_entry_point("validate_event_info")
@@ -323,13 +382,13 @@ if __name__ == "__main__":
         "processActionCode": "EventHandlerLookup",
         "processDataParams": {
             "districtName": "福田",
-            "sourceEntity": "街道办",
+            "sourceEntity": "市政服务第三方企业",
             "sceneType": "泥头车",
             "reportLocation": "广东省深圳市福田区梅林街道林海山庄",
             "gridCode": "440304008004003",
             "reportTime": "2025-06-20 06:48:20",
             "reporter": "张三",
-            "reportEntity": "街道办巡查员",
+            "reportEntity": "市政服务第三方企业巡查员",
             "longitude": 121.473,
             "latitude": 31.23,
             "description": "滨河路。东往西滨河新洲立交处，该车辆超高超载。未密闭，沿途撒落。"
@@ -337,7 +396,7 @@ if __name__ == "__main__":
         "context": {
             "imageDescription": "[811702d688c3: 这张图片显示了一辆载满土方的卡车行驶在深圳市福田区的道路上，路牌指示了前往南山、香蜜湖路、新洲路等方向。] [7c7e65a9840b: 这张图片显示了一辆载满土方的卡车行驶在深圳市福田区的道路上，背景是高楼大厦。]"
         }
-    }
+        }
 
     # 构建输入 State
     initial_state = {
