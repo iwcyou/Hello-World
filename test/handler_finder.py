@@ -131,37 +131,115 @@ def extract_target_and_reason(text: str) -> tuple[str, str]:
     return target, reason
 
 
-# ========== 主体节点函数生成器 ==========
-def make_responsibility_node(index_path):
-    def node_fn(state: State):
-        new_results = []
+# # ========== 主体节点函数生成器 ==========
+# def make_responsibility_node(index_path):
+#     def node_fn(state: State):
+#         new_results = []
 
-        for ticket in state["tickets"]:
-            query = ticket["processDataParams"]["description"] + "\n" + ticket["imageDescription"]
-            law_context = get_law_context(index_path, query)
+#         for ticket in state["tickets"]:
+#             query = ticket["processDataParams"]["description"] + "\n" + ticket["imageDescription"]
+#             law_context = get_law_context(index_path, query)
 
-            event_data = ticket["processDataParams"].copy()
-            event_data["imageDescription"] = ticket["imageDescription"]
-            response = ask_deepseek(event_data, law_context)
-            pure_response = response.split("</think>")[-1].strip()
+#             event_data = ticket["processDataParams"].copy()
+#             event_data["imageDescription"] = ticket["imageDescription"]
+#             response = ask_deepseek(event_data, law_context)
+#             pure_response = response.split("</think>")[-1].strip()
 
-            target, reason = extract_target_and_reason(pure_response)
+#             target, reason = extract_target_and_reason(pure_response)
 
-            # 构造新工单，不修改原始工单结构
-            result_ticket = {
-                "eventId": ticket.get("eventId", ""),
-                "processActionCode": ticket.get("processActionCode", ""),
-                "processResultData": {
-                    "target": target,
-                    "content": reason
-                }
-            }
+#             # 构造新工单，不修改原始工单结构
+#             result_ticket = {
+#                 "eventId": ticket.get("eventId", ""),
+#                 "processActionCode": ticket.get("processActionCode", ""),
+#                 "processResultData": {
+#                     "target": target,
+#                     "content": reason
+#                 }
+#             }
 
-            state["newTickets"].append(result_ticket)
+#             state["newTickets"].append(result_ticket)
 
-        return state
+#         return state
 
-    return node_fn
+#     return node_fn
+
+
+# ========== 运输企业节点 ==========
+def transport_company_node(state: State):
+    ticket = state["tickets"][0]
+    original_data = ticket["processDataParams"]
+    image_desc = ticket["imageDescription"]
+
+    base_query = original_data["description"] + "\n" + image_desc
+    query = base_query + "\n留存基础证据；初步安全防护准备（放警示锥等）；协助交警临时管制（若污染较大）"
+
+    # 获取法规内容
+    law_context = get_law_context(
+        "./test/faiss_law_index/city_housekeeper_index",
+        query
+    )
+
+    # 组装 event_data 用于提问
+    event_data = original_data.copy()
+    event_data["imageDescription"] = image_desc
+
+    # 大模型生成内容
+    response = ask_deepseek(event_data, law_context)
+    pure_response = response.split("</think>")[-1].strip()
+    _, reason = extract_target_and_reason(pure_response)
+
+    # 构造城市管家工单
+    caretaker_ticket = {
+        "eventId": ticket.get("eventId", ""),
+        "processActionCode": ticket.get("processActionCode", ""),
+        "processResultData": {
+            "target": "城市管家",
+            "content": reason,
+            "action": "PUSH_API"
+        }
+    }
+
+    state["newTickets"].append(caretaker_ticket)
+    return state
+
+
+# ========== 工地企业节点 ==========
+def construction_site_node(state: State):
+    ticket = state["tickets"][0]
+    original_data = ticket["processDataParams"]
+    image_desc = ticket["imageDescription"]
+
+    base_query = original_data["description"] + "\n" + image_desc
+    query = base_query + "\n提醒肇事人员及时整改；批评教育（观看污染治理记录片+法规学习）；留存基础证据"
+
+    # 获取法规内容
+    law_context = get_law_context(
+        "./test/faiss_law_index/city_housekeeper_index",  # 可根据你创建的索引路径调整
+        query
+    )
+
+    # 组装 event_data 用于提问
+    event_data = original_data.copy()
+    event_data["imageDescription"] = image_desc
+
+    # 大模型生成内容
+    response = ask_deepseek(event_data, law_context)
+    pure_response = response.split("</think>")[-1].strip()
+    _, reason = extract_target_and_reason(pure_response)
+
+    # 构造街道办工单
+    subdistrict_ticket = {
+        "eventId": ticket.get("eventId", ""),
+        "processActionCode": ticket.get("processActionCode", ""),
+        "processResultData": {
+            "target": "街道办",
+            "content": reason,
+            "action": "PUSH_API"
+        }
+    }
+
+    state["newTickets"].append(subdistrict_ticket)
+    return state
 
 
 # ========== 街道办节点 ==========
@@ -353,8 +431,8 @@ def build_graph():
 
     # 注册节点
     graph.add_node("validate_event_info", validate_event_info)
-    graph.add_node("transport_company_node", make_responsibility_node("./faiss_law_index/transport_company_index"))
-    graph.add_node("construction_site_node", make_responsibility_node("./faiss_law_index/construction_site_index"))
+    graph.add_node("transport_company_node", transport_company_node)
+    graph.add_node("construction_site_node", construction_site_node)
     graph.add_node("subdistrict_office_node", subdistrict_office_node)
     graph.add_node("city_housekeeper_node", city_housekeeper_node)
     graph.add_node("municipal_services_node", municipal_services_node)
