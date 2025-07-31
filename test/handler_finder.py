@@ -164,6 +164,47 @@ def make_responsibility_node(index_path):
     return node_fn
 
 
+# ========== 街道办节点 ==========
+def subdistrict_office_node(state: State):
+    ticket = state["tickets"][0]
+    original_data = ticket["processDataParams"]
+    image_desc = ticket["imageDescription"]
+
+    # 合并查询内容
+    base_query = original_data["description"] + "\n" + image_desc
+    query = base_query + "\n提醒肇事人员及时整改；批评教育（观看污染治理记录片+法规学习）；街道办应该留存基础证据"
+
+    # 获取法规内容
+    law_context = get_law_context(
+        "./test/faiss_law_index/city_housekeeper_index",  # 你可以根据实际路径修改
+        query
+    )
+
+    # 组装 event_data 用于提问
+    event_data = original_data.copy()
+    event_data["imageDescription"] = image_desc
+
+    # 大模型生成内容
+    response = ask_deepseek(event_data, law_context)
+    pure_response = response.split("</think>")[-1].strip()
+    _, reason = extract_target_and_reason(pure_response)
+
+    # 生成发送给“工地企业”的新工单
+    construction_ticket = {
+        "eventId": ticket.get("eventId", ""),
+        "processActionCode": ticket.get("processActionCode", ""),
+        "processResultData": {
+            "target": "工地企业",
+            "content": reason,  # 已包含整改内容+学习资料+参考法规
+            "action": "PUSH_SMS",
+            "timeLimit": 120
+        }
+    }
+
+    state["newTickets"].append(construction_ticket)
+    return state
+
+
 # ========== 城市管家节点 ==========
 def city_housekeeper_node(state: State):
     new_results = []
@@ -255,7 +296,7 @@ def build_graph():
     graph.add_node("validate_event_info", validate_event_info)
     graph.add_node("transport_company_node", make_responsibility_node("./faiss_law_index/transport_company_index"))
     graph.add_node("construction_site_node", make_responsibility_node("./faiss_law_index/construction_site_index"))
-    graph.add_node("subdistrict_office_node", make_responsibility_node("./faiss_law_index/subdistrict_office_index"))
+    graph.add_node("subdistrict_office_node", subdistrict_office_node)
     graph.add_node("city_housekeeper_node", city_housekeeper_node)
     graph.add_node("municipal_services_node", make_responsibility_node("./faiss_law_index/municipal_services_index"))
 
@@ -282,13 +323,13 @@ if __name__ == "__main__":
         "processActionCode": "EventHandlerLookup",
         "processDataParams": {
             "districtName": "福田",
-            "sourceEntity": "城市管家",
+            "sourceEntity": "街道办",
             "sceneType": "泥头车",
             "reportLocation": "广东省深圳市福田区梅林街道林海山庄",
             "gridCode": "440304008004003",
             "reportTime": "2025-06-20 06:48:20",
             "reporter": "张三",
-            "reportEntity": "城市管家",
+            "reportEntity": "街道办巡查员",
             "longitude": 121.473,
             "latitude": 31.23,
             "description": "滨河路。东往西滨河新洲立交处，该车辆超高超载。未密闭，沿途撒落。"
