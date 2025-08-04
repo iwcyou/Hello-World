@@ -453,6 +453,22 @@ def build_graph():
     return graph.compile()
 
 # ========== 主入口 ==========
+def handler_finder(raw_event):
+
+    # 构建输入 State
+    initial_state = {
+        "tickets": [raw_event],
+        "newTickets": []
+    }
+
+    app = build_graph()
+    result_state = app.invoke(initial_state)
+
+    # ✅ 打印新生成的处理工单
+    print("\n✅ 处理结果：")
+    print(json.dumps(result_state["newTickets"], ensure_ascii=False, indent=2))
+
+
 if __name__ == "__main__":
     # 原始工单
     raw_event = {
@@ -474,19 +490,6 @@ if __name__ == "__main__":
         "context": {
             "imageDescription": "[811702d688c3: 这张图片显示了一辆载满土方的卡车行驶在深圳市福田区的道路上，路牌指示了前往南山、香蜜湖路、新洲路等方向。] [7c7e65a9840b: 这张图片显示了一辆载满土方的卡车行驶在深圳市福田区的道路上，背景是高楼大厦。]"
         }
-        }
-
-    # 构建输入 State
-    initial_state = {
-        "tickets": [raw_event],
-        "newTickets": []
     }
-
-    app = build_graph()
-    result_state = app.invoke(initial_state)
-
-    # ✅ 打印新生成的处理工单
-    print("\n✅ 处理结果：")
-    print(json.dumps(result_state["newTickets"], ensure_ascii=False, indent=2))
-
+    handler_finder(raw_event)
 

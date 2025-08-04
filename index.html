@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>算法 WebSocket 测试</title>
+</head>
+<body>
+    <h2>算法 WebSocket 测试界面</h2>
+    <label>操作类型（ACTION_A / ACTION_B）：</label>
+    <input id="action" value="ACTION_A">
+    <br>
+    <label>附加数据（JSON）：</label>
+    <input id="payload" value='{"foo": "bar"}' size="50">
+    <br><br>
+    <button onclick="sendMessage()">发送</button>
+    <pre id="log"></pre>
+
+    <script>
+        let ws = new WebSocket("ws://0.0.0.0:8000/ws/algorithm");
+
+        ws.onmessage = (event) => {
+            const log = document.getElementById("log");
+            log.textContent += "\n收到：" + event.data;
+        };
+
+        ws.onopen = () => {
+            document.getElementById("log").textContent += "✅ WebSocket 已连接\n";
+        };
+
+        ws.onclose = () => {
+            document.getElementById("log").textContent += "❌ WebSocket 已断开\n";
+        };
+
+        function sendMessage() {
+            const action = document.getElementById("action").value;
+            const payload = document.getElementById("payload").value;
+
+            try {
+                const jsonPayload = JSON.parse(payload);
+                jsonPayload["processActionCode"] = action;
+                ws.send(JSON.stringify(jsonPayload));
+            } catch (e) {
+                alert("请输入有效的 JSON 数据！");
+            }
+        }
+    </script>
+</body>
+</html>
