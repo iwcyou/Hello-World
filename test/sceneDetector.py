@@ -49,7 +49,7 @@ def get_image_description(image_urls):
                 {"type": "text", "text": "请你用一句话描述这张图片内容。"}
             ])
             response = vlm.invoke([human_msg])
-            
+
             # 获取图片文件名或编号
             filename = os.path.basename(url).split("?")[0][:12]  # 提取图片 ID 前缀
             descriptions.append(f"[{filename}: {response.content.strip()}]")
@@ -58,7 +58,6 @@ def get_image_description(image_urls):
             descriptions.append(f"[image_{idx+1}: 图片处理失败: {str(e)}]")
 
     return " ".join(descriptions)
-
 
 
 # 判断文字和图片是否匹配
