@@ -24,10 +24,10 @@ class State(TypedDict):
 
 
 # ========== 法规内容检索 ==========
-def get_law_context(index_path: str, query: str, top_k=5):
+def get_law_context(index_path: str, query: str, top_k=10):
     db = FAISS.load_local(
         folder_path=index_path,
-        embeddings=HuggingFaceEmbeddings(model_name="BAAI/bge-small-zh"),
+        embeddings=HuggingFaceEmbeddings(model_name="BAAI/bge-large-zh-v1.5"),
         allow_dangerous_deserialization=True
     )
     docs = db.similarity_search(query, k=top_k)

@@ -1,102 +1,73 @@
-import os
-import torch
-import pandas as pd
 from langchain_community.vectorstores import FAISS
+import torch
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import PyPDFLoader, UnstructuredWordDocumentLoader
-from langchain.docstore.document import Document
+from langchain_community.document_loaders import (
+    PyPDFLoader,
+    UnstructuredWordDocumentLoader,
+    UnstructuredExcelLoader,
+)
+import os
 
-# ===== 1. 配置嵌入模型 =====
+# 初始化嵌入模型
 embedding_model = HuggingFaceEmbeddings(
     model_name="BAAI/bge-large-zh-v1.5",
-    model_kwargs={"device": "cuda" if torch.cuda.is_available() else "cpu"},
-    encode_kwargs={"normalize_embeddings": True}  # 官方建议归一化
+    model_kwargs={"device": "cuda" if torch.cuda.is_available() else "cpu"}
 )
 
-# ===== 2. 加载文档 =====
+# 递归加载文档，并将相对路径写入metadata
 def load_documents_from_folder(folder_path: str):
     docs = []
-    for filename in os.listdir(folder_path):
-        file_path = os.path.join(folder_path, filename)
+    for root, _, files in os.walk(folder_path):  # 递归扫描
+        for filename in files:
+            file_path = os.path.join(root, filename)
 
-        if filename.lower().endswith(".pdf"):
-            try:
+            # 按扩展名选择loader
+            if filename.endswith(".pdf"):
                 loader = PyPDFLoader(file_path)
-                docs.extend(loader.load())
-            except Exception as e:
-                print(f"读取 PDF 失败: {filename}, 错误: {e}")
-
-        elif filename.lower().endswith(".docx"):
-            try:
+            elif filename.endswith(".docx"):
                 loader = UnstructuredWordDocumentLoader(file_path)
-                docs.extend(loader.load())
-            except Exception as e:
-                print(f"读取 Word 失败: {filename}, 错误: {e}")
+            elif filename.endswith(".xlsx") or filename.endswith(".xls"):
+                loader = UnstructuredExcelLoader(file_path)
+            else:
+                continue
 
-        elif filename.lower().endswith((".xlsx", ".xls")):
-            try:
-                # 读取所有 sheet，转换为字符串
-                df_sheets = pd.read_excel(file_path, sheet_name=None, engine="openpyxl", dtype=str)
-                for sheet_name, sheet_df in df_sheets.items(): 
-                    try:
-                        sheet_df = sheet_df.fillna("")
-                        text = sheet_df.to_string(index=False)
-                        docs.append(Document(
-                            page_content=text,
-                            metadata={"source": f"{filename} - {sheet_name}"}
-                        ))
-                    except Exception as e:
-                        print(f"⚠️ Sheet 读取失败: {filename} - {sheet_name}, 错误: {e}")
-            except Exception as e:
-                print(f"读取 Excel 失败: {filename}, 错误: {e}")
+            # 加载文件
+            loaded_docs = loader.load()
 
-        else:
-            print(f"跳过不支持的文件类型: {filename}")
+            # 在 metadata 中记录相对路径（从根目录开始）
+            rel_path = os.path.relpath(file_path, folder_path)
+            for d in loaded_docs:
+                d.metadata["source"] = rel_path
 
+            docs.extend(loaded_docs)
     return docs
 
-# ===== 3. 构建 FAISS 索引 =====
+# 构建FAISS向量库
 def build_faiss_index_from_folder(folder_path: str, index_save_path: str):
-    print("📂 正在加载法规文档...")
+    print("📂 加载法规文档中...")
     raw_docs = load_documents_from_folder(folder_path)
-    print(f"📄 共加载 {len(raw_docs)} 个文档片段")
 
-    if not raw_docs:
-        print("❌ 未加载到任何文档，请检查文件夹路径或文件格式")
-        return None
+    print(f"📄 共加载 {len(raw_docs)} 个原始文档片段")
 
-    print("✂ 正在切分文档为片段...")
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=512,
-        chunk_overlap=64,
-        separators=["\n\n", "\n", "。", "！", "？", "；", "，", " ", ""]
-    )
+    print("✂️ 切分文档为片段...")
+    splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
     split_docs = splitter.split_documents(raw_docs)
-    print(f"📄 切分后得到 {len(split_docs)} 个文档块")
 
-    if not split_docs:
-        print("❌ 没有文档块可用于构建索引，请检查文件是否为空")
-        return None
+    print(f"📄 切分后得到 {len(split_docs)} 个片段")
 
-    print("🔍 正在构建嵌入向量...")
+    print("🔍 构建嵌入向量...")
     embeddings = embedding_model
 
-    print("📦 正在构建 FAISS 向量数据库...")
+    print("💾 构建 FAISS 向量数据库...")
     vectordb = FAISS.from_documents(split_docs, embeddings)
 
-    print(f"💾 保存向量数据库至：{index_save_path}")
-    os.makedirs(index_save_path, exist_ok=True)
+    print(f"✅ 保存向量数据库至：{index_save_path}")
     vectordb.save_local(index_save_path)
-
-    print("✅ 向量数据库构建完成！")
     return vectordb
 
 
 if __name__ == "__main__":
-    # ======== 配置路径 ========
-    docs_folder = "./test/rule"       # 你的法规文档所在文件夹
-    index_folder = "./faiss_index"    # 保存 FAISS 索引的文件夹
-
-    # 构建索引
-    build_faiss_index_from_folder(docs_folder, index_folder)
+    folder = "./test/rule_files"
+    save_path = "./test/faiss_law_index"
+    build_faiss_index_from_folder(folder, save_path)
