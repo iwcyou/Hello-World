@@ -1,0 +1,21 @@
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:latest
+    container_name: gitlab
+    restart: always
+    hostname: '10.19.180.202'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'http://10.19.180.202/gitlab'  # 🔧 改为子路径
+        nginx['listen_port'] = 80
+        gitlab_rails['gitlab_shell_ssh_port'] = 2022
+        nginx['redirect_http_to_https'] = false
+    ports:
+      - '8929:80'
+      - '2443:443'
+      - '2022:22'
+    volumes:
+      - '/srv/gitlab/config:/etc/gitlab'
+      - '/srv/gitlab/logs:/var/log/gitlab'
+      - '/srv/gitlab/data:/var/opt/gitlab'
+    shm_size: '256m'
