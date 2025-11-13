@@ -1,0 +1,57 @@
+version: '3.9'
+
+networks:
+  wikinet:
+    driver: bridge
+
+volumes:
+  pgdata:
+
+services:
+  db:
+    image: postgres:17
+    container_name: db
+    hostname: db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: wiki
+      POSTGRES_USER: wiki
+      POSTGRES_PASSWORD_FILE: /etc/wiki/.db-secret
+    volumes:
+      - /etc/wiki/.db-secret:/etc/wiki/.db-secret:ro
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - wikinet
+
+  wiki:
+    image: ghcr.io/requarks/wiki:2
+    container_name: wiki
+    hostname: wiki
+    restart: unless-stopped
+    environment:
+      DB_TYPE: postgres
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_PASS_FILE: /etc/wiki/.db-secret
+      DB_USER: wiki
+      DB_NAME: wiki
+      UPGRADE_COMPANION: "1"
+    ports:
+      - "80:3000"
+      - "443:3443"
+    volumes:
+      - /etc/wiki/.db-secret:/etc/wiki/.db-secret:ro
+    depends_on:
+      - db
+    networks:
+      - wikinet
+
+  wiki-update-companion:
+    image: ghcr.io/requarks/wiki-update-companion:latest
+    container_name: wiki-update-companion
+    hostname: wiki-update-companion
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    networks:
+      - wikinet
