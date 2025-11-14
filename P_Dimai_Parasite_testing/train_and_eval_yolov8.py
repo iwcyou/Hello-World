@@ -1,3 +1,14 @@
+"""
+Usage:
+    python train_and_eval_yolov8.py
+
+Notes:
+    - 绘制混淆矩阵等输出的时候存在中英文显示问题，需要展示的话别忘记修改
+
+Author: Kun Feng
+Date: 2025-11-14
+"""
+
 from ultralytics import YOLO
 import torch
 import os
@@ -12,12 +23,12 @@ DATA_PATH = '/data/kunfeng/all_in_one_yolo_split/data.yaml'
 SAVE_DIR = '/data/kunfeng/yolo_runs'
 
 # ----------------------
-# 1️⃣ 加载预训练 YOLOv8x 模型（最大模型）
+# 加载预训练model
 # ----------------------
 model = YOLO('yolov8x.pt')  # 自动下载预训练权重
 
 # ----------------------
-# 2️⃣ 开始训练
+# 开始训练
 # ----------------------
 results = model.train(
     data=DATA_PATH,
@@ -28,8 +39,8 @@ results = model.train(
     device=[0, 1],              # 双GPU训练
     project=SAVE_DIR,
     name='parasite_detection_hpc',
-    save_period=5,              # ✅ 每隔 5 个 epoch 额外保存一次 epochX.pt (epoch0,5,10,...)
-    cache=True,                 # ✅ 使用缓存（内存够）
+    save_period=5,              # 每隔 5 个 epoch 额外保存一次 epochX.pt (epoch0,5,10,...)
+    cache=True,                 # 使用缓存（内存够）
     pretrained=True,
     optimizer='AdamW',          # 更稳定的优化器
     lr0=0.0005,                 # 初始学习率（适合大batch）
@@ -43,7 +54,7 @@ results = model.train(
 )
 
 # ----------------------
-# 3️⃣ 在测试集上验证
+# 在测试集上验证
 # ----------------------
 metrics = model.val(
     data=DATA_PATH,
@@ -55,22 +66,22 @@ metrics = model.val(
 )
 
 # ----------------------
-# 4️⃣ 输出指标
+# 输出指标
 # ----------------------
-print("\n✅ Evaluation results:")
+print("\n Evaluation results:")
 print(f"mAP@0.5: {metrics.box.map50:.4f}")
 print(f"mAP@0.5:0.95: {metrics.box.map:.4f}")
 print(f"Precision: {metrics.box.p:.4f}")
 print(f"Recall: {metrics.box.r:.4f}")
 
 # ----------------------
-# 5️⃣ 导出模型
+# 导出模型
 # ----------------------
 best_model_path = model.export(format='pt', dynamic=True)
-print(f"✅ Best model saved to: {best_model_path}")
+print(f" Best model saved to: {best_model_path}")
 
 # ----------------------
-# 6️⃣ 绘制混淆矩阵与 per-class mAP 曲线
+# 绘制混淆矩阵与 per-class mAP 曲线
 # ----------------------
 import importlib
 import numpy as np
@@ -91,6 +102,6 @@ def _plot_confusion_matrix(conf_matrix, names, save_dir):
 _plot_confusion_matrix(conf_matrix, names=list(model.names.values()), save_dir=f"{SAVE_DIR}/parasite_detection_hpc")
 
 # 每类 mAP 输出
-print("\n📊 Per-class mAP@0.5:")
+print("\n Per-class mAP@0.5:")
 for cls_name, m in zip(model.names.values(), metrics.box.maps):
     print(f"{cls_name}: {m:.4f}")
