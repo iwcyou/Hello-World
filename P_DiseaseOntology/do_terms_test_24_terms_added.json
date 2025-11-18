@@ -1,0 +1,5786 @@
+[
+  {
+    "id": "DOID_0051000",
+    "name": "autoinflammatory disease",
+    "definition": "A primary immunodeficiency disease that is characterized by the activation of innate immune cells without an infection or injury being present, thus kickstarting the release of cytokines and other immune responses, causing fever and inflammation.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [],
+    "parents": [
+      "DOID_612"
+    ]
+  },
+  {
+    "id": "DOID_0051001",
+    "name": "congenital dyserythropoietic anemia type IIIb",
+    "definition": "A congenital dyserythropoietic anemia characterized by macrocytic anemia, aberrant giant multinucleated erythroblasts in the bone marrow, and skull defects secondary to severe anemia with ineffective erythropoiesis and that has_material_basis_in homozygous or compound heterozygous mutation in the RACGAP1 gene on chromosome 12q13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619789"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_1338"
+    ]
+  },
+  {
+    "id": "DOID_0051002",
+    "name": "congenital dyserythropoietic anemia type IVb",
+    "definition": "A congenital dyserythropoietic anemia characterized by neonatal jaundice, hyperbilirubinemia, and severe congenital hemolytic anemia requiring transfusionn and that has_material_basis_in homozygous or compound heterozygous mutation in the KLF1 gene on chromosome 19p13.13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620969"
+      }
+    ],
+    "parents": [
+      "DOID_1338"
+    ]
+  },
+  {
+    "id": "DOID_0051003",
+    "name": "congenital nonspherocytic hemolytic anemia 1",
+    "definition": "A congenital nonspherocytic hemolytic anemia that has_material_basis_in mutation in the G6PD gene on chromosome Xq28, and is the most common genetic form of chronic and drug-, food-, or infection-induced hemolytic anemia.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:300908"
+      }
+    ],
+    "parents": [
+      "DOID_0050735",
+      "DOID_2861"
+    ]
+  },
+  {
+    "id": "DOID_0051004",
+    "name": "congenital nonspherocytic hemolytic anemia 3",
+    "definition": "A congenital nonspherocytic hemolytic anemia that has_material_basis_in homozygous or compound heterozygous mutation in the AK1 gene on chromosome 9q34.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:612631"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_2861"
+    ]
+  },
+  {
+    "id": "DOID_0051005",
+    "name": "congenital nonspherocytic hemolytic anemia 4",
+    "definition": "A congenital nonspherocytic hemolytic anemia that has_material_basis_in homozygous or compound heterozygous mutation in the PHI gene (GPI) on chromosome 19q13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:613470"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_2861"
+    ]
+  },
+  {
+    "id": "DOID_0051006",
+    "name": "congenital nonspherocytic hemolytic anemia 5",
+    "definition": "A congenital nonspherocytic hemolytic anemia that has_material_basis_in homozygous or compound heterozygous mutation in the HK1 gene, which encodes a form of hexokinase, on chromosome 10q22.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:235700"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_2861"
+    ]
+  },
+  {
+    "id": "DOID_0051007",
+    "name": "congenital nonspherocytic hemolytic anemia 8",
+    "definition": "A congenital nonspherocytic hemolytic anemia that has_material_basis_in homozygous or compound heterozygous mutation in the UMPH1 gene (NT5C3A) on chromosome 7p14.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:266120"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_2861"
+    ]
+  },
+  {
+    "id": "DOID_0051008",
+    "name": "congenital nonspherocytic hemolytic anemia 9",
+    "definition": "A congenital nonspherocytic hemolytic anemia that has_material_basis_in hemizygous or heterozygous mutation in the GATA1 gene on chromosome Xp11.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:301083"
+      }
+    ],
+    "parents": [
+      "DOID_0080012",
+      "DOID_2861"
+    ]
+  },
+  {
+    "id": "DOID_0051009",
+    "name": "congenital nonspherocytic hemolytic anemia 10",
+    "definition": "A congenital nonspherocytic hemolytic anemia that has_material_basis_in homozygous or compound heterozygous mutation in the GSR gene on chromosome 8p21.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618660"
+      }
+    ],
+    "parents": [
+      "DOID_2861"
+    ]
+  },
+  {
+    "id": "DOID_0051010",
+    "name": "Bryant-Li-Bhoj neurodevelopmental syndrome",
+    "definition": "An autosomal dominant intellectual developmental disorder that is characterized by developmental delay / intellectual disability (typically in the severe range) and nonspecific craniofacial abnormalities.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:PS619720"
+      }
+    ],
+    "parents": [
+      "DOID_0060307"
+    ]
+  },
+  {
+    "id": "DOID_0051011",
+    "name": "Bryant-Li-Bhoj neurodevelopmental syndrome 1",
+    "definition": "A Bryant-Li-Bhoj neurodevelopmental syndrome that is characterized predominantly by moderate to severe global developmental delay with impaired intellectual development, poor or absent speech, and delayed motor milestones and that has_material_basis_in heterozygous mutation in the H3F3A gene on chromosome 1q42.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619720"
+      }
+    ],
+    "parents": [
+      "DOID_0051010"
+    ]
+  },
+  {
+    "id": "DOID_0051012",
+    "name": "Bryant-Li-Bhoj neurodevelopmental syndrome 2",
+    "definition": "A Bryant-Li-Bhoj neurodevelopmental syndrome that is characterized predominantly by moderate to severe global developmental delay with impaired intellectual development, poor or absent speech, and delayed motor milestones nd that has_material_basis_in heterozygous mutation in the H3F3B gene on chromosome 17q25.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619721"
+      }
+    ],
+    "parents": [
+      "DOID_0051010"
+    ]
+  },
+  {
+    "id": "DOID_0051013",
+    "name": "pseudohypoparathyroidism type 1C",
+    "definition": "A pseudohypoparathyroidism that has_material_basis_in a heterozygous mutation on the maternal allele of the GNAS gene on chromosome 20q13.",
+    "synonyms": [
+      "PHP Ic"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "GARD:10681"
+      },
+      {
+        "val": "MIM:612462"
+      },
+      {
+        "val": "ORDO:79444"
+      }
+    ],
+    "parents": [
+      "DOID_4184"
+    ]
+  },
+  {
+    "id": "DOID_0060930",
+    "name": "developmental dysplasia of the hip",
+    "definition": "A bone development disease characterized by abnormality of the seating of the femoral head in the acetabulum.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MESH:D000082602"
+      },
+      {
+        "val": "MIM:PS142700"
+      }
+    ],
+    "parents": [
+      "DOID_0080006"
+    ]
+  },
+  {
+    "id": "DOID_0060931",
+    "name": "developmental dysplasia of the hip 1",
+    "definition": "A developmental dysplasia of the hip that is characterized by a shallow hip socket and that has_material_basis_in variation in the chromosomal region 13q22.",
+    "synonyms": [
+      "DDH1"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:142700"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0060930"
+    ]
+  },
+  {
+    "id": "DOID_0060932",
+    "name": "developmental dysplasia of the hip 2",
+    "definition": "A developmental dysplasia of the hip that is characterized by incomplete formation of the acetabulum leading to dislocation of the femur, suboptimal joint function, and accelerated wear of the articular cartilage, resulting in arthritis and that has_material_basis_in variation in the chromosomal region 3p22.2.",
+    "synonyms": [
+      "DDH2"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:615612"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0060930"
+    ]
+  },
+  {
+    "id": "DOID_0060933",
+    "name": "developmental delay, dysmorphic facies, and brain anomalies",
+    "definition": "An autosomal dominant intellectual developmental disorder characterized by global developmental delay with impaired intellectual development, speech delay, nonspecific dysmorphic facial features, hypotonia, and impaired overall growth with small head circumference that has_material_basis_in heterozygous mutation in the U2AF2 gene on chromosome 19q13.",
+    "synonyms": [
+      "DEVDFB"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620535"
+      }
+    ],
+    "parents": [
+      "DOID_0060307"
+    ]
+  },
+  {
+    "id": "DOID_0060934",
+    "name": "neurodevelopmental disorder with microcephaly, epilepsy, and brain atrophy",
+    "definition": "An autosomal recessive intellectual developmental disorder characterized by  global developmental delay, severe intellectual disability with poor or absent speech and autistic stereotypic behaviors, microcephaly, early-onset generalized seizures, and hypotonia that has_material_basis_in homozygous mutation in the TRAPPC6B gene on chromosome 14q21.",
+    "synonyms": [
+      "NEDMEBA"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617862"
+      }
+    ],
+    "parents": [
+      "DOID_0060308"
+    ]
+  },
+  {
+    "id": "DOID_0060935",
+    "name": "infantile hypotonia with psychomotor retardation and characteristic facies-3",
+    "definition": "An autosomal recessive intellectual developmental disorder characterized by very poor, if any, psychomotor development, poor speech, inability to walk independently and onset at birth or in early infancy that has_material_basis_in homozygous or compound heterozygous mutation in the TBCK gene on chromosome 4q24.",
+    "synonyms": [
+      "HYPOTONIA, INFANTILE, WITH PSYCHOMOTOR RETARDATION AND CHARACTERISTIC FACIES 3",
+      "IHPRF3",
+      "TBCK-related intellectual disability syndrome"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:616900"
+      },
+      {
+        "val": "ORDO:488632"
+      },
+      {
+        "val": "UMLS_CUI:C5567480"
+      }
+    ],
+    "parents": [
+      "DOID_0060308"
+    ]
+  },
+  {
+    "id": "DOID_0060936",
+    "name": "dystonia 28, childhood-onset",
+    "definition": "A dystonia characterized by onset of progressive dystonia in the first decade of life resulting in gait upper limbs, neck, and orofacial region difficulties, elongated face with bulbous nose, some have abnormal eye movements and potential delayed motor and/or cognitive development with mild intellectual disability that has_material_basis_in heterozygous mutation in the KMT2B gene on chromosome 19p13.",
+    "synonyms": [
+      "DYSTONIA 28, CHILDHOOD-ONSET",
+      "DYT28"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "ICD10CM:G24.8"
+      },
+      {
+        "val": "MIM:617284"
+      },
+      {
+        "val": "ORDO:589618"
+      },
+      {
+        "val": "UMLS_CUI:C4310633"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060937",
+    "name": "dystonia 30",
+    "definition": "A dystonia characterized by the onset of symptoms in the first decades of life, with oromandibular, cervical, bulbar, or upper limb dystonia, and usually show slow progression to generalized dystonia. Some patients may lose ambulation and have neurocognitive impairment, including mild intellectual disability or psychiatric manifestations with has_material_basis_in heterozygous mutation in the VPS16 gene on chromosome 20p13.",
+    "synonyms": [
+      "DYT30"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619291"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060938",
+    "name": "dystonia 31",
+    "definition": "A dystonia characterized by age at onset ranges from childhood to young adulthood with involuntary muscle twisting movements and postural abnormalities affecting the upper and lower limbs, neck, face, and trunk. Some patients may have orofacial dyskinesia resulting in articulation and swallowing difficulties that has_material_basis_in homozygous or compound heterozygous mutation in the AOPEP gene on chromosome 9q22.",
+    "synonyms": [
+      "DYT31",
+      "ZECH-BOESCH SYNDROME"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619565"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060939",
+    "name": "dystonia 32",
+    "definition": "A dystonia characterized by onset of symptoms in adulthood, sustained or intermittent muscle contractions causing abnormal movements or posturing. The disorder is slowly progressive with eventual generalized involvement of the limbs, trunk, neck, and larynx, resulting in dysarthria and dysphagia. Brain imaging may show abnormalities in the basal ganglia that has_material_basis_in homozygous mutation in the VPS11 gene on chromosome 11q23.",
+    "synonyms": [
+      "DYT32"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619637"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060940",
+    "name": "dystonia 33",
+    "definition": "A dystonia characterized by a neurologic disorder with onset of focal or generalized dystonia in the first decades of life (from early childhood to adolescence) that has_material_basis_in heterozygous mutation in the EIF2AK2 gene on chromosome 2p22.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619687"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0050737",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060941",
+    "name": "interstitial lung disease 1",
+    "definition": "An interstitial lung disease characterized by a progressive remodeling of the alveolar interstitium that has_material_basis_in heterozygous mutation in the SFTPA1 gene on chromosome 10q22.",
+    "synonyms": [
+      "Idiopathic pulmonary fibrosis"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:8609"
+      },
+      {
+        "val": "MIM:619611"
+      },
+      {
+        "val": "ORDO:2032"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0050737",
+      "DOID_3082"
+    ]
+  },
+  {
+    "id": "DOID_0060942",
+    "name": "Ullrich congenital muscular dystrophy 1B",
+    "definition": "An Ullrich congenital muscular dystrophy characterized by generalized muscle weakness and striking hypermobility of distal joints in conjunction with variable contractures of more proximal joints and normal intelligence that has_material_basis_in homozygous, compound heterozygous, or heterozygous mutation in the COL6A2 gene on chromosome 21q22.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620727"
+      }
+    ],
+    "parents": [
+      "DOID_0050558"
+    ]
+  },
+  {
+    "id": "DOID_0060943",
+    "name": "Ullrich congenital muscular dystrophy 1C",
+    "definition": "An Ullrich congenital muscular dystrophy characterized by generalized muscle weakness and striking hypermobility of distal joints in conjunction with variable contractures of more proximal joints and normal intelligence that has_material_basis_in homozygous or heterozygous mutation in the COL6A3 gene on chromosome 2q37.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620728"
+      }
+    ],
+    "parents": [
+      "DOID_0050558"
+    ]
+  },
+  {
+    "id": "DOID_0060944",
+    "name": "episodic kinesigenic dyskinesia 3",
+    "definition": "A dystonia characterized by dystonia, chorea, athetosis, and other hyperkinetic movements that has_material_basis_in heterozygous mutation in the TMEM151A gene on chromosome 11q13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620245"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060945",
+    "name": "amelogenesis imperfecta type 1K",
+    "definition": "An amelogenesis imperfecta characterized by hypoplastic enamel of all teeth that has_material_basis_in heterozygous mutation in the SP6 gene on chromosome 17q21.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:5791"
+      },
+      {
+        "val": "MIM:620104"
+      },
+      {
+        "val": "ORDO:88661"
+      }
+    ],
+    "parents": [
+      "DOID_2187"
+    ]
+  },
+  {
+    "id": "DOID_0060946",
+    "name": "Ullrich congenital muscular dystrophy 1A",
+    "definition": "An Ullrich congenital muscular dystrophy characterized by generalized muscle weakness and striking hypermobility of distal joints in conjunction with variable contractures of more proximal joints and normal intelligence that has_material_basis_in homozygous, compound heterozygous, or heterozygous mutation in the COL6A1 gene on chromosome 21q22.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:254090"
+      }
+    ],
+    "parents": [
+      "DOID_0050558"
+    ]
+  },
+  {
+    "id": "DOID_0060947",
+    "name": "autosomal recessive intellectual developmental disorder 82",
+    "definition": "An autosomal recessive intellectual developmental disorder characterized by global developmental delay with motor and speech delay, variably impaired intellectual development, and behavioral abnormalities has_material_basis_in homozygous mutation in the NSUN6 gene on chromosome 10p12.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620779"
+      }
+    ],
+    "parents": [
+      "DOID_0060308"
+    ]
+  },
+  {
+    "id": "DOID_0060948",
+    "name": "Ullrich congenital muscular dystrophy 2",
+    "definition": "An Ullrich congenital muscular dystrophy characterized by joint hypermobility, proximal contractures, and muscle weakness precluding ambulation that has_material_basis_in homozygous mutation in the COL12A1 gene on chromosome 6q.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:4769"
+      },
+      {
+        "val": "MIM:616470"
+      },
+      {
+        "val": "ORDO:75840"
+      }
+    ],
+    "parents": [
+      "DOID_0050558"
+    ]
+  },
+  {
+    "id": "DOID_0060949",
+    "name": "3-hydroxyisobutryl-CoA hydrolase deficiency",
+    "definition": "An amino acid metabolic disorder characterized by severely delayed psychomotor development, neurodegeneration, increased lactic acid, and brain lesions in the basal ganglia  that has_material_basis_in homozygous or compound heterozygous mutation in the HIBCH gene on chromosome 2q32.",
+    "synonyms": [
+      "HIBCH deficiency",
+      "Methacrylic aciduria",
+      "Valine metabolic defect"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:13202"
+      },
+      {
+        "val": "MIM:250620"
+      },
+      {
+        "val": "ORDO:88639"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_9252"
+    ]
+  },
+  {
+    "id": "DOID_0060950",
+    "name": "hypervalinemia and hyperleucine-isoleucinemia",
+    "definition": "An amino acid metabolic characterized by highly elevated plasma valine and leucine concentrations that has_material_basis_in compound heterozygous mutation in the BCAT2 gene on chromosome 19q13.",
+    "synonyms": [
+      "branched-chain aminotransferase 2 deficiency"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618850"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_9252"
+    ]
+  },
+  {
+    "id": "DOID_0060951",
+    "name": "polycystic kidney disease 6",
+    "definition": "An autosomal dominant polycystic kidney disease characterized by the development of multiple small renal cysts and progression to renal insufficiency or end-stage renal disease (ESRD) most often after the sixth decade that has_material_basis_in heterozygous mutation in the DNAJB11 gene on chromosome 3q27.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618061"
+      }
+    ],
+    "parents": [
+      "DOID_898"
+    ]
+  },
+  {
+    "id": "DOID_0060952",
+    "name": "polycystic kidney disease 7",
+    "definition": "A autosomal dominant polycystic kidney disease characterized by the development of small kidney cysts and renal interstitial fibrosis causing adult-onset progressive loss of kidney function leading to end-stage kidney disease after around 60 years of age that has_material_basis_in heterozygous mutation in the ALG5 gene on chromosome 13q13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620056"
+      }
+    ],
+    "parents": [
+      "DOID_898"
+    ]
+  },
+  {
+    "id": "DOID_0060953",
+    "name": "ZTTK syndrome",
+    "definition": "A syndrome characterized by delayed psychomotor development and intellectual disability that has_material_basis_in heterozygous mutation in the SON gene on chromosome 21q22.",
+    "synonyms": [
+      "ZTTK MULTIPLE CONGENITAL ANOMALIES-MENTAL RETARDATION SYNDROME",
+      "Zhu-Tokita-Takenouchi-Kim syndrome"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:13489"
+      },
+      {
+        "val": "MIM:617140"
+      },
+      {
+        "val": "ORDO:500150"
+      },
+      {
+        "val": "UMLS_CUI:C4310696"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0060954",
+    "name": "Holoprosencephaly 13, X-linked",
+    "definition": "A holoprosencephaly characterized by midline developmental defects that mainly affect the brain and craniofacial structure that has_material_basis_in heterozygous mutation in the STAG2 gene on chromosome Xq25.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:301043"
+      }
+    ],
+    "parents": [
+      "DOID_0080009",
+      "DOID_0080012",
+      "DOID_4621"
+    ]
+  },
+  {
+    "id": "DOID_0060955",
+    "name": "dystonia 35, childhood-onset",
+    "definition": "A dystonia characterized by the onset of a dystonic movement disorder in the first year of life that has_material_basis_in compound heterozygous mutation in the SHQ1 gene on chromosome 3p13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619921"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060956",
+    "name": "dystonia 37, early-onset with striatal lesions",
+    "definition": "A dystonia characterized by the onset of progressive dystonia, dysphagia, and choreoathetosis in the first months or years of life that has_material_basis_in homozygous or compound heterozygous mutations in the NUP54 gene on chromosome 4q21.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620427"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060957",
+    "name": "myoclonic dystonia 34",
+    "definition": "A dystonia characterized by childhood-onset dystonia primarily involving the hands and neck, with a fast tremor with superimposed myoclonus that has_material_basis_in heterozygous mutation in the KCNN2 gene on chromosome 5q22.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619724"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060958",
+    "name": "orofaciodigital syndrome XIV",
+    "definition": "An orofaciodigital syndrome that is characterized by severe microcephaly, trigonocephaly, severe intellectual disability and micropenis, in addition to oral, facial and digital malformations (gingival frenulae, lingual hamartomas, cleft/lobulated tongue, cleft palate, telecanthus, up-slanting palpebral fissures, microretrognathia, postaxial polydactyly of hands and duplication of hallux) that has_material_basis_in homozygous or compound heterozygous mutation in the C2CD3 gene on chromosome 11q13.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:13655"
+      },
+      {
+        "val": "MIM:615948"
+      },
+      {
+        "val": "ORDO:434179"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_4501"
+    ]
+  },
+  {
+    "id": "DOID_0060959",
+    "name": "orofaciodigital syndrome II",
+    "definition": "An orofaciodigital syndrome that is characterized by cleft lip/palate, lobulated tongue with nodules, dental anomalies including tooth agenesis, maxillary hypoplasia, conductive hearing loss, and poly-, syn-, and brachydactyly that has_material_basis_in compound heterozygous mutation in the NEK1 gene on chromosome 4q33.",
+    "synonyms": [
+      "Mohr syndrome",
+      "Oral-facial-digital syndrome type 2"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:3701"
+      },
+      {
+        "val": "MIM:252100"
+      },
+      {
+        "val": "ORDO:2751"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_4501"
+    ]
+  },
+  {
+    "id": "DOID_0060960",
+    "name": "orofaciodigital syndrome XIX",
+    "definition": "An orofaciodigital syndrome that is characterized by tongue nodules; dental anomalies including congenital absence or abnormal shape of incisors; narrow, high-arched or cleft palate; retrognathia; and digital anomalies that has_material_basis_in homozygous mutation in the SCNM1 gene on chromosome 1q21.",
+    "synonyms": [
+      "Oral-facial-digital syndrome type XIX"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620107"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_4501"
+    ]
+  },
+  {
+    "id": "DOID_0060961",
+    "name": "orofaciodigital syndrome XVIII",
+    "definition": "An orofaciodigital syndrome that is characterized by short stature, brachymesophalangy, pre- and postaxial polysyndactyly, and stocky femoral necks, as well as oral anomalies and dysmorphic facial features that has_material_basis_in homozygous mutation in the IFT57 gene on chromosome 3q13.",
+    "synonyms": [
+      "Oral-facial-digital syndrome type 18",
+      "Oral-facial-digital syndrome with short stature and brachymesophalangy",
+      "Orofaciodigital syndrome type 18"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:617927"
+      },
+      {
+        "val": "ORDO:508501"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_4501"
+    ]
+  },
+  {
+    "id": "DOID_0060962",
+    "name": "orofaciodigital syndrome XX",
+    "definition": "An orofaciodigital syndrome that is characterized by bilateral oral clefting, polydactyly/syndactyly, cerebral malformations, cardiac defects, anorectal anomalies, and shortening of the long bones that has_material_basis_in homozygous or compound heterozygous mutation in the RAB34 gene on chromosome 17q11.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620718"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_4501"
+    ]
+  },
+  {
+    "id": "DOID_0060964",
+    "name": "Loeys-Dietz syndrome 6",
+    "definition": "A Loeys-Dietz syndrome characterized by aortic/arterial aneurysm and dissection in association with connective tissue findings that has_material_basis_in heterozygous mutation in the SMAD2 gene (601366) on chromosome 18q21.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619656"
+      }
+    ],
+    "parents": [
+      "DOID_0050466"
+    ]
+  },
+  {
+    "id": "DOID_0060965",
+    "name": "episodic ataxia type 9",
+    "definition": "An episodic ataxia that is characterized by onset of ataxic episodes in the first years of life that has_material_basis_in heterozygous mutation in the SCN2A gene on chromosome 2q23.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618924"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_963"
+    ]
+  },
+  {
+    "id": "DOID_0060966",
+    "name": "dystonia 22, juvenile-onset",
+    "definition": "A dystonia characterized by progressive, generalized dystonia associated with cognitive decline and cerebellar atrophy on brain imaging that has_material_basis_in homozygous loss-of-function mutation in the TSPOAP1 gene (610764) on chromosome 17q22.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620453"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060967",
+    "name": "dystonia 22, adult-onset",
+    "definition": "A dystonia characterized by focal dystonia or tremor and mild cognitive impairment that has_material_basis_in homozygous missense mutation in the TSPOAP1 gene.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620456"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0060968",
+    "name": "hypotrichosis 15",
+    "definition": "A hypotrichosis that is characterized by sparse or absent hair on the scalp and/or body, and eyebrows and eyelashes may be sparse or absent as well that has_material_basis_in homozygous mutation in the C3ORF52 gene on chromosome 3q13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620177"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_4535"
+    ]
+  },
+  {
+    "id": "DOID_0060969",
+    "name": "galactosemia 4",
+    "definition": "A galactosemia characterized by persistent congenital galactosemia due to deficiency of the enzyme galactose mutarotase that has_material_basis_in homozygous or compound heterozygous mutation in the GALM gene on chromosome 2p22.",
+    "synonyms": [
+      "GALM deficiency",
+      "Galactose mutarotase deficiency",
+      "Galactosemia type 4"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:618881"
+      },
+      {
+        "val": "ORDO:570422"
+      }
+    ],
+    "parents": [
+      "DOID_9870"
+    ]
+  },
+  {
+    "id": "DOID_0060970",
+    "name": "Cornelia de Lange syndrome 6",
+    "definition": "A Cornelia de Lange syndrome characterized by malformations affecting multiple systems that has_material_basis_in heterozygous mutation in the BRD4 gene on chromosome 19p13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620568"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_11725"
+    ]
+  },
+  {
+    "id": "DOID_0060971",
+    "name": "interstitial lung disease 2",
+    "definition": "An interstitial lung disease pulmonary fibrosis that is characterized by scarring of the lung and that has_material_basis_in heterozygous mutation in the SFTPA2 gene on chromosome 10q22.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:178500"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_3082"
+    ]
+  },
+  {
+    "id": "DOID_0060972",
+    "name": "renal hypomagnesemia 7, with or without dilated cardiomyopathy",
+    "definition": "A hypomagnesemia characterized by renal salt wasting resulting in hypomagnesemia with secondary effects such as hypokalemia or hypocalcemia that has_material_basis_in heterozygous mutation in the RRAGD gene on chromosome 6q15.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620152"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0060879"
+    ]
+  },
+  {
+    "id": "DOID_0060973",
+    "name": "WHIM syndrome 2",
+    "definition": "An immunodeficiency disease that is characterized by chronic neutropenia and myelokathexis, which is impaired neutrophil mobilization from the bone marrow and that has_material_basis_in homozygous mutation in the CXCR2 gene on chromosome 2q35.",
+    "synonyms": [
+      "WARTS, HYPOGAMMAGLOBULINEMIA, INFECTIONS, AND MYELOKATHEXIS SYNDROME 2"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619407"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_612"
+    ]
+  },
+  {
+    "id": "DOID_0060974",
+    "name": "autosomal recessive Robinow syndrome 2",
+    "definition": "A Robinow syndrome characterized bypostnatal mesomelic short stature and relative macrocephaly as well as dysmorphic facial features, including frontal bossing, hypertelorism, prominent eyes, wide short nose with anteverted nares, and triangular mouth that has_material_basis_in homozygous or compound heterozygous mutation in the NXN gene on chromosome 17p13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618529"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0060254"
+    ]
+  },
+  {
+    "id": "DOID_0060975",
+    "name": "polycystic liver disease 2",
+    "definition": "A liver disease characterized by the presence of multiple liver cysts resulting from structural changes in the biliary tree during development that has_material_basis_in heterozygous mutation in the SEC63 gene on chromosome 6q21.",
+    "synonyms": [
+      "POLYCYSTIC LIVER DISEASE 2 WITH OR WITHOUT KIDNEY CYSTS"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617004"
+      }
+    ],
+    "parents": [
+      "DOID_0050770"
+    ]
+  },
+  {
+    "id": "DOID_0060976",
+    "name": "polycystic liver disease 3",
+    "definition": "A liver disease characterized by the development of multiple liver cysts that usually becomes apparent in adulthood that has_material_basis_in heterozygous mutation in the ALG8 gene on chromosome 11q14.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617874"
+      }
+    ],
+    "parents": [
+      "DOID_0050770"
+    ]
+  },
+  {
+    "id": "DOID_0060977",
+    "name": "polycystic liver disease 4",
+    "definition": "A liver disease characterized by adult-onset of liver cysts arising from the bile duct epithelium that has_material_basis_in heterozygous mutation in the LRP5 gene on chromosome 11q13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617875"
+      }
+    ],
+    "parents": [
+      "DOID_0050770"
+    ]
+  },
+  {
+    "id": "DOID_0060978",
+    "name": "Fanconi anemia complementation group W",
+    "definition": "A Fanconi anemia that has_material_basis_in compound heterozygous mutation in the RFWD3 gene on chromosome 16q23.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617784"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_13636"
+    ]
+  },
+  {
+    "id": "DOID_0060979",
+    "name": "Fanconi anemia complementation group S",
+    "definition": "A Fanconi anemia characterized by developmental delay apparent from infancy, short stature, microcephaly, and coarse dysmorphic features that has_material_basis_in compound heterozygous or homozygous mutation in the BRCA1 gene on chromosome 17q21.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617883"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_13636"
+    ]
+  },
+  {
+    "id": "DOID_0060980",
+    "name": "polycystic liver disease 1",
+    "definition": "A polycystic disease characterized by the presence of multiple liver cysts of biliary epithelial origin that has_material_basis_in heterozygous mutation in the PRKCSH gene on chromosome 19p13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:174050"
+      }
+    ],
+    "parents": [
+      "DOID_0050770"
+    ]
+  },
+  {
+    "id": "DOID_0060981",
+    "name": "mosaic variegated aneuploidy syndrome 4",
+    "definition": "A mosaic variegated aneuploidy syndrome that is characterized by mosaic aneuploidy, patients have microcephaly, mild developmental delay, and mild maculopathy and that has_material_basis_in compound heterozygous mutation in the CENATAC gene on chromosome 11q23.",
+    "synonyms": [
+      "MVA4"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620153"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0080688"
+    ]
+  },
+  {
+    "id": "DOID_0060982",
+    "name": "mosaic variegated aneuploidy syndrome 7 with inflammation and tumor predisposition",
+    "definition": "A mosaic variegated aneuploidy syndrome that is characterized by increased susceptibility to benign and malignant neoplasms beginning in early childhood that has_material_basis_in compound heterozygous mutation in the MAD1L1 gene on chromosome 7p22.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620189"
+      }
+    ],
+    "parents": [
+      "DOID_0080688"
+    ]
+  },
+  {
+    "id": "DOID_0060983",
+    "name": "sitosterolemia 2",
+    "definition": "An intestinal disease that is characterized by unrestricted intestinal absorption of both cholesterol and plant-derived cholesterol-like molecules, such as sitosterol that has_material_basis_in homozygous or compound heterozygous mutation in the ABCG5 gene on chromosome 2p21.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618666"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_5295"
+    ]
+  },
+  {
+    "id": "DOID_0060984",
+    "name": "digenic dyskeratosis congenita",
+    "definition": "A dyskeratosis congenita characterized by combination of mucocutaneous features including abnormal skin pigmentation, nail dystrophy, thin hair, and oral leukoplakia that has_material_basis_in  heterozygous mutation in the TYMS gene combined with a specific haplotype in the ENOSF1 gene, both of which reside on chromosome 18p11.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620040"
+      }
+    ],
+    "parents": [
+      "DOID_2729"
+    ]
+  },
+  {
+    "id": "DOID_0060985",
+    "name": "preaxial polydactyly type IV",
+    "definition": "A polydactyly that has_material_basis_in heterozygous mutation in the GLI3 gene on chromosome 7p14.",
+    "synonyms": [
+      "crossed polydactyly type 1"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:174700"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_1148"
+    ]
+  },
+  {
+    "id": "DOID_0060986",
+    "name": "preaxial polydactyly II",
+    "definition": "A polydactyly characterized by the presence of 3 phalanges within the thumb that has_material_basis_in heterozygous mutation in the ZRS, a regulatory element of SHH, on chromosome 7q36.",
+    "synonyms": [
+      "polydactyly of a triphalangeal thumb"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:5289"
+      },
+      {
+        "val": "MIM:174500"
+      },
+      {
+        "val": "ORDO:93336"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_1148"
+    ]
+  },
+  {
+    "id": "DOID_0060987",
+    "name": "preaxial polydactyly I",
+    "definition": "A polydactyly characterized by the duplication of one or more skeletal components of a biphalangeal thumb and/or hallux that has_material_basis_in homozygous mutation in the GLI1 gene (165220) on chromosome 12q13.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:4417"
+      },
+      {
+        "val": "MIM:174400"
+      },
+      {
+        "val": "ORDO:93339"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_1148"
+    ]
+  },
+  {
+    "id": "DOID_0060988",
+    "name": "pancreatic agenesis 2",
+    "definition": "A pancreatic agenesis that has_material_basis_in homozygous or compound heterozygous mutation in a distal enhancer of the PTF1A gene on chromosome 10p12.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:615935"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0050877"
+    ]
+  },
+  {
+    "id": "DOID_0060989",
+    "name": "short stature, facial dysmorphism, and skeletal anomalies with or without cardiac anomalies 1",
+    "definition": "A syndrome characterized by distinctive facial features including midface retrusion, short upturned nose, long philtrum, high-arched or cleft palate, and variable degrees of micrognathia and dental crowding with keletal anomalies including patterning defects of the axial skeleton, characterized by 11 pairs of ribs and brachydactyly of the fifth ray that has_material_basis_in heterozygous mutation in the BMP2 gene on chromosome 20p12.",
+    "synonyms": [
+      "SSFSC1"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617877"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0060990",
+    "name": "congenital disorder of deglycosylation 2",
+    "definition": "A carbohydrate metabolic disorder characterized by variable associated features such as dysmorphic facies, impaired intellectual development, and brain anomalies, including polymicrogyria, interhemispheric cysts, hypothalamic hamartoma, callosal anomalies, and hypoplasia of brainstem and cerebellar vermis that has_material_basis_in  homozygous or compound heterozygous mutation in the MAN2C1 gene on chromosome 15q24.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619775"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0060991"
+    ]
+  },
+  {
+    "id": "DOID_0060991",
+    "name": "congenital disorder of deglycosylation",
+    "definition": "A carbohydrate metabolic disorder that is charactized mutations resulting in malfunction impacting the addition of glycans to proteins.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [],
+    "parents": [
+      "DOID_2978"
+    ]
+  },
+  {
+    "id": "DOID_0060992",
+    "name": "bent bone dysplasia syndrome 1",
+    "definition": "A bone remodeling disease characterized by poor mineralization of the calvarium, craniosynostosis, dysmorphic facial features, prenatal teeth, hypoplastic pubis and clavicles, osteopenia, and bent long bones  that has_material_basis_in heterozygous mutation in the FGFR2 gene on chromosome 10q26.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:614592"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0080005"
+    ]
+  },
+  {
+    "id": "DOID_0060993",
+    "name": "bent bone dysplasia syndrome 2",
+    "definition": "A bone remodeling disease characterized by defects in both the axial and appendicular skeleton, with radiographic findings of undermineralized bone and a distinct angulation of the mid femoral shaft that has_material_basis_incompound heterozygous mutation in the LAMA5 gene on chromosome 20q13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620076"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0080005"
+    ]
+  },
+  {
+    "id": "DOID_0060994",
+    "name": "encephalopathy due to defective mitochondrial and peroxisomal fission 2",
+    "definition": "A syndrome characterized by delayed psychomotor development, severe hypotonia with inability to walk, microcephaly, and abnormal signals in the basal ganglia that has_material_basis_in homozygous or compound heterozygous mutation in the MFF gene on chromosome 2q36.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617086"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0060995",
+    "name": "autosomal dominant isolated macrothrombocytopenia 2",
+    "definition": "A thrombocytopenia that is characterized by the finding of low platelet numbers and abnormally large platelets with irregular shapes that has_material_basis_in heterozygous mutation in the TUBA8 gene on chromosome 22q11.",
+    "synonyms": [
+      "MACTHC2"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619840"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_1588"
+    ]
+  },
+  {
+    "id": "DOID_0060996",
+    "name": "poor metabolism of thiopurines 2",
+    "definition": "A poor metabolism of thiopurines that has_material_basis_in variation in the NUDT15 gene on chromosome 13q14.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:616903"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0080172"
+    ]
+  },
+  {
+    "id": "DOID_0060997",
+    "name": "rhabdoid tumor predisposition syndrome 2",
+    "definition": "A rhabdoid tumor predisposition syndrome that has_material_basis_in heterozygous germline mutation in the SMARCA4 gene on chromosome 19p13.",
+    "synonyms": [
+      "RTPS2"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:613325"
+      }
+    ],
+    "parents": [
+      "DOID_0070617"
+    ]
+  },
+  {
+    "id": "DOID_0060998",
+    "name": "striatal degeneration 2",
+    "definition": "A multiple system atrophy characterized by hyperkinetic movements, mainly chorea, resulting from dysfunction of the basal ganglia that has_material_basis_in heterozygous mutation in the PDE10A gene on chromosome 6q27.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:616922"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_4752"
+    ]
+  },
+  {
+    "id": "DOID_0060999",
+    "name": "mitochondrial trifunctional protein deficiency 2",
+    "definition": "A mitochondrial trifunctional protein deficiency that has_material_basis_in homozygous or compound heterozygous mutation in the HADHB gene the beta subunit of the mitochondrial trifunctional protein, on chromosome 2p23.3.",
+    "synonyms": [
+      "MTPD2"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620300"
+      }
+    ],
+    "parents": [
+      "DOID_0111277"
+    ]
+  },
+  {
+    "id": "DOID_0061001",
+    "name": "glycine encephalopathy 2",
+    "definition": "A glycine encephalopathy that has_material_basis_in homozygous or compound heterozygous mutation in the AMT gene, which encodes a member of the glycine cleavage system (protein T), on chromosome 3p21.",
+    "synonyms": [
+      "GCE2"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620398"
+      }
+    ],
+    "parents": [
+      "DOID_9268"
+    ]
+  },
+  {
+    "id": "DOID_0061002",
+    "name": "congenital amegakaryocytic thrombocytopenia 2",
+    "definition": "A thrombocytopenia characterized by thrombocytopenia with progression to pancytopenia, aplastic anemia, and bone marrow failure that has_material_basis_in homozygous mutation in the THPO gene on chromosome 3q27.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620481"
+      }
+    ],
+    "parents": [
+      "DOID_0090118"
+    ]
+  },
+  {
+    "id": "DOID_0061003",
+    "name": "pancreatic agenesis 1",
+    "definition": "A pancreatic agenesis characterized by intrauterine growth retardation that has_material_basis_in homozygous or compound heterozygous mutation in the PDX1 gene on chromosome 13q12.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:260370"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0050877"
+    ]
+  },
+  {
+    "id": "DOID_0061004",
+    "name": "poor metabolism of thiopurines 1",
+    "definition": "A poor metabolism of thiopurines that has_material_basis_in homozygous or compound heterozygous mutation in the TPMT gene on chromosome 6p22.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:610460"
+      }
+    ],
+    "parents": [
+      "DOID_0080172"
+    ]
+  },
+  {
+    "id": "DOID_0061005",
+    "name": "congenital amegakaryocytic thrombocytopenia 1",
+    "definition": "A congenital amegakaryocytic thrombocytopenia that is characterized by onset of thrombocytopenia and megakaryocytopenia in infancy or early childhood that has_material_basis_in autosomal homozygous or compound heterozygous mutation in the myeloproliferative leukemia virus oncogene on chromosome 1p34.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:604498"
+      }
+    ],
+    "parents": [
+      "DOID_0090118"
+    ]
+  },
+  {
+    "id": "DOID_0061006",
+    "name": "advanced sleep phase syndrome 4",
+    "definition": "An advanced sleep phase syndrome that has_material_basis_in heterozygous mutation in the TIMELESS gene on chromosome 12q13.",
+    "synonyms": [
+      "FASPS4",
+      "familial advanced sleep phase syndrome 4"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620015"
+      }
+    ],
+    "parents": [
+      "DOID_0050628"
+    ]
+  },
+  {
+    "id": "DOID_0061007",
+    "name": "sideroblastic anemia 5",
+    "definition": "A sideroblastic anemia that is characterized by abnormal iron accumulation in the mitochondria or erythroid cells that  has_material_basis_in compound heterozygous mutation in the HSCB gene on chromosome 22q12.",
+    "synonyms": [
+      "SIDBA5"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619523"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_8955"
+    ]
+  },
+  {
+    "id": "DOID_0061008",
+    "name": "craniosynostosis 6",
+    "definition": "A craniosynostosis that has_material_basis_in heterozygous mutation in the ZIC1 gene on chromosome 3q24.",
+    "synonyms": [
+      "CRS6"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:616602"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_2340"
+    ]
+  },
+  {
+    "id": "DOID_0061009",
+    "name": "craniosynostosis 2",
+    "definition": "A craniosynostosis characterized by a highly variable craniosynostosis with frontal bossing, turribrachycephaly and cloverleaf skull anomaly that has_material_basis_in heterozygous mutation in the MSX2 gene on chromosome 5q35.",
+    "synonyms": [
+      "CRS2",
+      "Craniosynostosis Boston type",
+      "Craniosynostosis Warman type",
+      "Warman-Mulliken-Hayward syndrome"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "GARD:5538"
+      },
+      {
+        "val": "MIM:604757"
+      },
+      {
+        "val": "ORDO:1541"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_2340"
+    ]
+  },
+  {
+    "id": "DOID_0061010",
+    "name": "craniosynostosis 1",
+    "definition": "A craniosynostosis that has_material_basis_in heterozygous mutation in the TWIST1 gene on chromosome 7p21.",
+    "synonyms": [
+      "CRS1"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:123100"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_2340"
+    ]
+  },
+  {
+    "id": "DOID_0061011",
+    "name": "craniosynostosis 3",
+    "definition": "A craniosynostosis that has_material_basis_in heterozygous mutation in the TCF12 gene on chromosome 15q21.",
+    "synonyms": [
+      "CRS3"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:615314"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_2340"
+    ]
+  },
+  {
+    "id": "DOID_0061012",
+    "name": "craniosynostosis 4",
+    "definition": "A craniosynostosis that has_material_basis_in heterozygous mutation in the ERF gene on chromosome 19q13.",
+    "synonyms": [
+      "CRS4"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:600775"
+      },
+      {
+        "val": "ORDO:647681"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_2340"
+    ]
+  },
+  {
+    "id": "DOID_0061013",
+    "name": "ovarian dysgenesis 9",
+    "definition": "A 46 XX gonadal dysgenesis characterized by severe nonsyndromic primary ovarian insufficiency with primary amenorrhea, hypoplastic or absent ovaries, and delayed bone age that has_material_basis_in homozygous mutation in the SPIDR gene on chromosome 8q11.",
+    "synonyms": [
+      "ODG9"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619665"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_14450"
+    ]
+  },
+  {
+    "id": "DOID_0061014",
+    "name": "ovarian dysgenesis 10",
+    "definition": "A 46 XX gonadal dysgenesis characterized by primary amenorrhea and absent puberty that has_material_basis_in homozygous mutation in the ZSWIM7 gene on chromosome 17p12.",
+    "synonyms": [
+      "ODG10"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619834"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_14450"
+    ]
+  },
+  {
+    "id": "DOID_0061015",
+    "name": "female-restricted Wieacker-Wolff syndrome",
+    "definition": "A syndromic X-linked intellectual disability that has_material_basis_in heterozygous mutation in the ZC4H2 gene on chromosome Xq11.",
+    "synonyms": [
+      "WRWFFR"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:301041"
+      }
+    ],
+    "parents": [
+      "DOID_0060309",
+      "DOID_0080009"
+    ]
+  },
+  {
+    "id": "DOID_0061016",
+    "name": "combined or isolated pituitary growth hormone deficiency 7",
+    "definition": "A combined pituitary hormone deficiency that has_material_basis_in compound heterozygous mutation in the RNPC3 gene on chromosome 1p21.",
+    "synonyms": [
+      "IGHD5",
+      "Isolated growth hormone deficiency type V"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618160"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_9410"
+    ]
+  },
+  {
+    "id": "DOID_0061017",
+    "name": "combined pituitary hormone deficiency 4",
+    "definition": "A combined pituitary hormone deficiency that has_material_basis_in heterozygous mutation in the LHX4 gene on chromosome 1q25.",
+    "synonyms": [
+      "short stature-pituitary and cerebellar defects-small sella turcica syndrome"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "GARD:10604"
+      },
+      {
+        "val": "MIM:262700"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_9410"
+    ]
+  },
+  {
+    "id": "DOID_0061018",
+    "name": "combined or isolated pituitary hormone deficiency 8",
+    "definition": "A combined pituitary hormone deficiency that has_material_basis_in heterozygous mutation in the ROBO1 gene on chromosome 3p12.",
+    "synonyms": [
+      "CPHD8"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620303"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_9410"
+    ]
+  },
+  {
+    "id": "DOID_0061019",
+    "name": "combined or isolated pituitary hormone deficiency 1",
+    "definition": "A combined pituitary hormone deficiency that has_material_basis_in homozygous, compound heterozygous, or heterozygous mutation in the POU1F1 gene on chromosome 3p11.",
+    "synonyms": [
+      "CPHD1"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:613038"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0050737",
+      "DOID_9410"
+    ]
+  },
+  {
+    "id": "DOID_0061020",
+    "name": "combined pituitary hormone deficiency 2",
+    "definition": "A combined pituitary hormone deficiency that has_material_basis_in homozygous or compound heterozygous mutation in the PROP1 gene on chromosome 5q35.",
+    "synonyms": [
+      "CPHD2"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:262600"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_9410"
+    ]
+  },
+  {
+    "id": "DOID_0061021",
+    "name": "combined pituitary hormone deficiency 3",
+    "definition": "A combined pituitary hormone deficiency that has_material_basis_in homozygous mutation in the LHX3 gene on chromosome 9q34.",
+    "synonyms": [
+      "CPHD3"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:221750"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_9410"
+    ]
+  },
+  {
+    "id": "DOID_0061022",
+    "name": "combined pituitary hormone deficiency 6",
+    "definition": "A combined pituitary hormone deficiency that has_material_basis_in heterozygous mutation in the OTX2 gene on chromosome 14q21.",
+    "synonyms": [
+      "CPHD6"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:613986"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_9410"
+    ]
+  },
+  {
+    "id": "DOID_0061023",
+    "name": "nonphotosensitive trichothiodystrophy 8",
+    "definition": "A nonphotosensitive trichothiodystrophy that is characterized by brittle hair and nails and scaly skin, accompanied by failure to thrive, microcephaly, and neuromotor developmental delay that has_material_basis_in compound heterozygous mutation in the AARS1 gene on chromosome 16q22.",
+    "synonyms": [
+      "TTD8"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619691"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111867"
+    ]
+  },
+  {
+    "id": "DOID_0061024",
+    "name": "nonphotosensitive trichothiodystrophy 9",
+    "definition": "A nonphotosensitive trichothiodystrophy that is characterized by brittle hair and nails and scaly skin, accompanied by failure to thrive, microcephaly, and neuromotor developmental delay that has_material_basis_in homozygous mutation in the MARS1 gene on chromosome 12q13.",
+    "synonyms": [
+      "TTD9"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619692"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111867"
+    ]
+  },
+  {
+    "id": "DOID_0070517",
+    "name": "retinal macular dystrophy 2",
+    "definition": "A retinal macular dystrophy characterized by slowly progressive ''bull's eye'' maculopathy, mild visual impairment, and central scotomata that has_material_basis_in heterozygous mutation in the PROM1 gene on chromosome 4p15.32.",
+    "synonyms": [
+      "MCDR2"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MESH:C562746"
+      },
+      {
+        "val": "MIM:608051"
+      },
+      {
+        "val": "ORDO:319640"
+      },
+      {
+        "val": "SNOMEDCT_US_2023_03_01:770594005"
+      },
+      {
+        "val": "UMLS_CUI:C4749334"
+      }
+    ],
+    "parents": [
+      "DOID_0070438"
+    ]
+  },
+  {
+    "id": "DOID_0070518",
+    "name": "familial multiple lipomatosis",
+    "definition": "A lipomatosis characterized by the development of numerous encapsulated lipomas on the extremities and trunk that has_material_basis_in autosomal dominant inheritance.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:12925"
+      },
+      {
+        "val": "MESH:D000071070"
+      },
+      {
+        "val": "MIM:151900"
+      },
+      {
+        "val": "ORDO:199276"
+      },
+      {
+        "val": "UMLS_CUI:C1275273"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_3153"
+    ]
+  },
+  {
+    "id": "DOID_0070519",
+    "name": "early-onset vitamin B6-dependent epilepsy 4",
+    "definition": "A pyridoxine-dependent epilepsy that has_material_basis_in homozygous or compound heterozygous mutation in the ALDH7A1 gene on chromosome 5q23.2.",
+    "synonyms": [
+      "AASA dehydrogenase deficiency",
+      "EPEO4",
+      "PDE-ALDH7A1",
+      "antiquitin deficiency"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:266100"
+      }
+    ],
+    "parents": [
+      "DOID_0080768"
+    ]
+  },
+  {
+    "id": "DOID_0070520",
+    "name": "peeling skin syndrome 1",
+    "definition": "A peeling skin syndrome that has_material_basis_in homozygous mutation in the CDSN gene on chromosome 6p21.33.",
+    "synonyms": [
+      "PSS1",
+      "generalized inflammatory peeling skin syndrome",
+      "inflammatory peeling skin syndrome",
+      "peeling skin syndrome type B"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:270300"
+      },
+      {
+        "val": "ORDO:263553"
+      },
+      {
+        "val": "UMLS_CUI:C5679693"
+      },
+      {
+        "val": "UMLS_CUI:C5768235"
+      }
+    ],
+    "parents": [
+      "DOID_0060283"
+    ]
+  },
+  {
+    "id": "DOID_0070521",
+    "name": "peeling skin syndrome 2",
+    "definition": "A peeling skin syndrome that has_material_basis_in homozygous or compound heterozygous mutation in the TGM5 gene on chromosome 15q15.2.",
+    "synonyms": [
+      "APSS",
+      "acral peeling skin syndrome",
+      "localized peeling skin syndrome",
+      "PSS2"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:12863"
+      },
+      {
+        "val": "MESH:C536316"
+      },
+      {
+        "val": "MIM:609796"
+      },
+      {
+        "val": "ORDO:263534"
+      },
+      {
+        "val": "SNOMEDCT_US_2023_03_01:709416009"
+      },
+      {
+        "val": "UMLS_CUI:C1853354"
+      }
+    ],
+    "parents": [
+      "DOID_0060283"
+    ]
+  },
+  {
+    "id": "DOID_0070522",
+    "name": "peeling skin syndrome 3",
+    "definition": "A peeling skin syndrome that has_material_basis_in autosomal recessive inheritance of variation in the chromosome region 19q13.",
+    "synonyms": [
+      "peeling skin syndrome type A",
+      "PSS3"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:616265"
+      }
+    ],
+    "parents": [
+      "DOID_0060283"
+    ]
+  },
+  {
+    "id": "DOID_0070523",
+    "name": "peeling skin syndrome 4",
+    "definition": "A peeling skin syndrome that has_material_basis_in homozygous mutation in the CSTA gene on chromosome 3q21.1.",
+    "synonyms": [
+      "AREI",
+      "autosomal recessive exfoliative ichthyosis",
+      "exfoliative ichthyosis",
+      "ichthyosis exfoliativa",
+      "PSS4",
+      "ichthyosis bullosa of Siemens-like"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MESH:C564309"
+      },
+      {
+        "val": "MIM:607936"
+      }
+    ],
+    "parents": [
+      "DOID_0060283"
+    ]
+  },
+  {
+    "id": "DOID_0070524",
+    "name": "peeling skin syndrome 5",
+    "definition": "A peeling skin syndrome that has_material_basis_in homozygous mutation in the SERPINB8 gene on chromosome 18q22.1.",
+    "synonyms": [
+      "autosomal recessive exfoliative ichthyosis",
+      "exfoliative ichthyosis",
+      "ichthyosis exfoliativa",
+      "PSS5"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617115"
+      }
+    ],
+    "parents": [
+      "DOID_0060283"
+    ]
+  },
+  {
+    "id": "DOID_0070525",
+    "name": "peeling skin syndrome 6",
+    "definition": "A peeling skin syndrome that has_material_basis_in homozygous mutation in the FLG2 gene on chromosome 1q21.3.",
+    "synonyms": [
+      "peeling skin syndrome type A",
+      "PSS6"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618084"
+      }
+    ],
+    "parents": [
+      "DOID_0060283"
+    ]
+  },
+  {
+    "id": "DOID_0070526",
+    "name": "PLACK syndrome",
+    "definition": "An skin disease characterized by peeling skin in association with leukonychia, acral punctate keratoses, cheilitis, and knuckle pads that has_material_basis_in homozygous mutation in the CAST gene on chromosome 5q15.",
+    "synonyms": [
+      "peeling skin with leukonychia, acral punctate keratoses, cheilitis, and knuckle pads"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:616295"
+      },
+      {
+        "val": "ORDO:444138"
+      },
+      {
+        "val": "SNOMEDCT_US_2023_03_01:1237509001"
+      },
+      {
+        "val": "UMLS_CUI:C4225381"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_37"
+    ]
+  },
+  {
+    "id": "DOID_0070527",
+    "name": "Borrelia miyamotoi disease",
+    "definition": "A primary bacterial infectious disease that has_material_basis_in Borrelia miyamotoi, which is transmitted_by the blacklegged tick (Ixodes scapularis), the western blacklegged tick (Ixodes pacificus), the taiga tick (Ixodes persulcatus), or the castor bean tick (Ixodes ricinus). The infection has_symptom fever, headache, chills, muscle pain, joint pain, asthenia, fatigue and nausea, and rarely relapses.",
+    "synonyms": [
+      "BMD",
+      "hard tick-borne relapsing fever"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "SNOMEDCT_US_2023_03_01:713014002"
+      },
+      {
+        "val": "UMLS_CUI:C4076531"
+      }
+    ],
+    "parents": [
+      "DOID_0050338"
+    ]
+  },
+  {
+    "id": "DOID_0070528",
+    "name": "cepacia syndrome",
+    "definition": "An opportunistic bacterial infectious disease characterized by necrotizing pneumonia, acute respiratory distress syndrome, and bacteremia that has_material_basis_in Burkholderia cepacia complex, which is transmitted_by contact transmission, droplet spread transmission, vehicle-borne fomite transmission, and vehicle-borne ingestion transmission.",
+    "synonyms": [
+      "CS"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim"
+    ],
+    "xrefs": [],
+    "parents": [
+      "DOID_0050340"
+    ]
+  },
+  {
+    "id": "DOID_0070529",
+    "name": "Sifrim-Hitz-Weiss syndrome",
+    "definition": "An autosomal dominant intellectual developmental disorder that is characterized by developmental delay, speech delay, usually mild-to-moderate intellectual disability, and variable congenital anomalies in other systems and that has_material_basis_in heterozygous mutation in the CHD4 gene on chromosome 12p13.31.",
+    "synonyms": [
+      "CHD4 Neurodevelopmental Disorder",
+      "CHD4-related neurodevelopmental disorder",
+      "CHD4-related neurodevelopmental syndrome",
+      "SIFRIM-HITZ-WEISS MULTIPLE CONGENITAL ANOMALIES-MENTAL RETARDATION SYNDROME",
+      "SIHIWES"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:617159"
+      },
+      {
+        "val": "ORDO:653712"
+      }
+    ],
+    "parents": [
+      "DOID_0060307"
+    ]
+  },
+  {
+    "id": "DOID_0070530",
+    "name": "foveal hypoplasia 1",
+    "definition": "A retinal disease characterized by foveal hypoplasia with decreased visual acuity, nystagmus and lack of aniridia that has_material_basis_in heterozygous mutation in the PAX6 gene on chromosome 11p13.",
+    "synonyms": [
+      "FVH1",
+      "foveal hypoplasia 1 with or without anterior segment anomalies and/or cataract",
+      "O'Donnell-Pappas syndrome",
+      "foveal hypoplasia-presenile cataract syndrome"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:136520"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_5679"
+    ]
+  },
+  {
+    "id": "DOID_0070531",
+    "name": "foveal hypoplasia 2",
+    "definition": "A retinal disease characterized by foveal hypoplasia with decreased visual acuity and nystagmus that has_material_basis_in homozygous or compound heterozygous mutation in the SLC38A8 gene on chromosome 16q23.3. Optic nerve decussation defects and anterior segment dysgenesis are also frequently seen.",
+    "synonyms": [
+      "FVH2",
+      "foveal hypoplasia 2 with or without optic nerve misrouting and/or anterior segment dysgenesis",
+      "FHONDA",
+      "FHONDA syndrome",
+      "foveal hypoplasia, optic nerve decussation defects, and anterior segment dysgenesis"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:609218"
+      },
+      {
+        "val": "ORDO:397618"
+      },
+      {
+        "val": "SNOMEDCT_US_2023_03_01:782754006"
+      },
+      {
+        "val": "UMLS_CUI:C5190596"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_5679"
+    ]
+  },
+  {
+    "id": "DOID_0070532",
+    "name": "aniridia 1",
+    "definition": "An aniridia that has_material_basis_in heterozygous mutation in the PAX6 gene on chromosome 11p13. Additional ocular anomalies are also common.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:106210"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_12271"
+    ]
+  },
+  {
+    "id": "DOID_0070533",
+    "name": "long QT syndrome 16",
+    "definition": "A long QT syndrome characterized by perinatal onset of markedly prolonged corrected QT (QTc) interval, 2:1 atrioventricular (AV) block, and bradycardia or ventricular tachycardia (torsades de pointes) that has_material_basis_in heterozygous mutation in the CALM3 gene on chromosome 19q13.32. Syncope, cardiac arrest, and sudden death are common.",
+    "synonyms": [
+      "LQT16"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618782"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_2843"
+    ]
+  },
+  {
+    "id": "DOID_0070534",
+    "name": "arrhythmogenic left ventricular cardiomyopathy",
+    "definition": "An intrinsic cardiomyopathy characterized by hypokinetic, non-dilated, fibrotic or fibrofatty left ventricular myocardium and ventricular arrhythmias with a right bundle branch block pattern, with limited to no involvement of the right ventricle.",
+    "synonyms": [
+      "ALVC",
+      "left ventricular ACM",
+      "left-dominant arrhythmogenic cardiomyopathy"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "ORDO:293888"
+      }
+    ],
+    "parents": [
+      "DOID_0060036"
+    ]
+  },
+  {
+    "id": "DOID_0070535",
+    "name": "arrhythmogenic biventricular cardiomyopathy",
+    "definition": "An intrinsic cardiomyopathy characterized by hypokinetic, non-dilated, fibrotic or fibrofatty replacement in both the left and right ventricular myocardium, with ventricular arrhythmias with left and right bundle branch block patterns.",
+    "synonyms": [
+      "biventricular ACM"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "ORDO:293899"
+      }
+    ],
+    "parents": [
+      "DOID_0060036"
+    ]
+  },
+  {
+    "id": "DOID_0070536",
+    "name": "neurodevelopmental disorder with hypotonia, language delay, and skeletal defects with or without seizures",
+    "definition": "An autosomal dominant intellectual developmental disorder characterized by behavioral abnormalities and developmental delay ranging from mild-to-moderate impaired intellectual development with expressive language delay to severly impaired intellectual development, severe hypotonia with delayed walking or inability to walk, and poor or absent speech that has_material_basis_in heterozygous mutation in the CACNA1C gene on chromosome 12p13.33.",
+    "synonyms": [
+      "NEDHLSS"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620029"
+      }
+    ],
+    "parents": [
+      "DOID_0060307"
+    ]
+  },
+  {
+    "id": "DOID_0070537",
+    "name": "spastic tetraplegia, thin corpus callosum, and progressive microcephaly",
+    "definition": "An autosomal recessive intellectual developmental disorder characterized by neonatal or infantile onset of spastic tetraplegia, thin corpus callosum, progressive microcephaly, and severely impaired global development that has_material_basis_in homozygous or compound heterozygous mutation in the SLC1A4 gene on chromosome 2p14.",
+    "synonyms": [
+      "SPATCCM"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:13425"
+      },
+      {
+        "val": "MIM:616657"
+      },
+      {
+        "val": "ORDO:447997"
+      },
+      {
+        "val": "UMLS_CUI:C4225254"
+      }
+    ],
+    "parents": [
+      "DOID_0060308"
+    ]
+  },
+  {
+    "id": "DOID_0070538",
+    "name": "syndromic X-linked intellectual developmental disorder bain type",
+    "definition": "A syndromic X-linked syndromic intellectual disability characterized by delayed psychomotor development, impaired intellectual development with behavioral abnormalities, and musculoskeletal and growth abnormalities that has_material_basis_in heterozygous mutation in the HNRNPH2 gene on chromosome Xq22.1.",
+    "synonyms": [
+      "HNRNPH2-RNDD",
+      "HNRNPH2-related neurodevelopmental disorder",
+      "MRXSB",
+      "Mental Retardation, X-linked, Syndrome, Bain Type"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:13442"
+      },
+      {
+        "val": "MIM:300986"
+      },
+      {
+        "val": "NCI:C183311"
+      },
+      {
+        "val": "UMLS_CUI:C4310814"
+      }
+    ],
+    "parents": [
+      "DOID_0060309"
+    ]
+  },
+  {
+    "id": "DOID_0070539",
+    "name": "Halperin-Birk syndrome",
+    "definition": "A syndrome characterized by structural brain defects, spastic quadriplegia with multiple contractures, profound developmental delay, seizures, dysmorphism, cataract, and optic nerve atrophy that has_material_basis_in homozygous mutation in the SEC31A gene on chromosome 4q21.22.",
+    "synonyms": [
+      "HLBKS",
+      "NEDSOSB",
+      "NEURODEVELOPMENTAL DISORDER WITH SPASTIC QUADRIPLEGIA, OPTIC ATROPHY, SEIZURES, AND STRUCTURAL BRAIN ANOMALIES"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618651"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0070540",
+    "name": "mitochondrial short-chain enoyl-CoA hydratase 1 deficiency",
+    "definition": "A mitochondrial metabolism disease characterized by a spectrum of phenotypes including delayed psychomotor development, neurodegeneration, increased lactic acid, brain lesions in the basal ganglia, and dystonia that has material basis in homozygous or compound heterozygous mutation in the ECHS1 gene on chromosome 10q26.3.",
+    "synonyms": [
+      "ECHS1D"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:13019"
+      },
+      {
+        "val": "MIM:616277"
+      },
+      {
+        "val": "NCI:C174218"
+      },
+      {
+        "val": "ORDO:653880"
+      },
+      {
+        "val": "UMLS_CUI:C4225391"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_3146",
+      "DOID_700",
+      "DOID_9252"
+    ]
+  },
+  {
+    "id": "DOID_0070541",
+    "name": "3-hydroxy-3-methylglutaryl-CoA lyase deficiency",
+    "definition": "An amino acid metabolic disorder characterized by metabolic acidosis without ketonuria, hypoglycemia, and a characteristic pattern of elevated urinary organic acid metabolites, including 3-hydroxy-3-methylglutaric, 3-methylglutaric, and 3-hydroxyisovaleric acids that has_material_basis_in homozygous or compound heterozygous mutation in the HMGCL gene on chromosome 1p36.11.",
+    "synonyms": [
+      "3-hydroxy-3-methylglutaryl-coenzyme A lyase deficiency",
+      "HMG-CoA lyase deficiency",
+      "HMGCL deficiency",
+      "HMGCLD",
+      "hydroxymethylglutaric aciduria",
+      "HL deficiency"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:8387"
+      },
+      {
+        "val": "MESH:C538324"
+      },
+      {
+        "val": "MIM:246450"
+      },
+      {
+        "val": "NCI:C84523"
+      },
+      {
+        "val": "ORDO:20"
+      },
+      {
+        "val": "UMLS_CUI:C0268601"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_9252"
+    ]
+  },
+  {
+    "id": "DOID_0070542",
+    "name": "neurodevelopmental disorder with spastic paraplegia and microcephaly",
+    "definition": "An amino acid metabolic disorder characterized delayed psychomotor development with delayed walking, moderately to severely impaired intellectual development, and poor or absent speech that has_material_basis_in homozygous or compound heterozygous mutation in the GPT2 gene on chromosome 16q11.2. Postnatal microcephaly and spastic paraplegia are also common.",
+    "synonyms": [
+      "GPT2 deficiency",
+      "MRT49",
+      "NEDSPM",
+      "autosomal recessive mental retardation 49",
+      "glutamate pyruvate transaminase 2 deficiency"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:616281"
+      },
+      {
+        "val": "ORDO:477673"
+      },
+      {
+        "val": "UMLS_CUI:C4225388"
+      },
+      {
+        "val": "UMLS_CUI:C5567787"
+      }
+    ],
+    "parents": [
+      "DOID_0060308",
+      "DOID_9252"
+    ]
+  },
+  {
+    "id": "DOID_0070543",
+    "name": "neurodevelopmental disorder with cardiomyopathy, spasticity, and brain abnormalities",
+    "definition": "An mitochondrial metabolism disease characterized by global neurodevelopmental delay, severely impaired intellectual development, poor overall growth, spasticity of the lower limbs resulting in gait difficulties, and progressive hypertrophic cardiomyopathy or cardiac developmental anomalies that has_material_basis_in homozygous or compound heterozygous mutation in the SHMT2 gene on chromosome 12q13.3.",
+    "synonyms": [
+      "NEDCASB"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619121"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_700",
+      "DOID_9252"
+    ]
+  },
+  {
+    "id": "DOID_0070544",
+    "name": "congenital glutamine deficiency",
+    "definition": "An amino acid metabolic disorder characterized by onset at birth of encephalopathy, lack of normal development, seizures, and hypotonia associated with variable brain abnormalities that has_material_basis_in homozygous mutation in the GLUL gene on chromosome 1q25.3.",
+    "synonyms": [
+      "GLND",
+      "congenital systemic glutamine synthase deficiency"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:9848"
+      },
+      {
+        "val": "MIM:610015"
+      },
+      {
+        "val": "ORDO:71278"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_9252"
+    ]
+  },
+  {
+    "id": "DOID_0070545",
+    "name": "developmental and epileptic encephalopathy 116",
+    "definition": "A developmental and epileptic encephalopathy characterized by severe developmental delay, seizures, and white matter abnormalities but normal plasma and cerebrospinal fluid biochemistry that has_material_basis_in heterozygous mutation in the GLUL gene on chromosome 1q25.3.",
+    "synonyms": [
+      "DEE116"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620806"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0112202",
+      "DOID_9252"
+    ]
+  },
+  {
+    "id": "DOID_0070546",
+    "name": "primary pigmented nodular adrenocortical disease 1",
+    "definition": "A primary pigmented nodular adrenocortical disease that has_material_basis_in heterozygous mutation in the PRKAR1A gene on chromosome 17q24.2.",
+    "synonyms": [
+      "PPNAD1"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MESH:C566469"
+      },
+      {
+        "val": "MIM:610489"
+      },
+      {
+        "val": "UMLS_CUI:C1864846"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0060280"
+    ]
+  },
+  {
+    "id": "DOID_0070547",
+    "name": "primary pigmented nodular adrenocortical disease 2",
+    "definition": "A primary pigmented nodular adrenocortical disease that has_material_basis_in heterozygous mutation in the PDE11A gene on chromosome 2q31.2.",
+    "synonyms": [
+      "PPNAD2"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MESH:C566472"
+      },
+      {
+        "val": "MIM:610475"
+      },
+      {
+        "val": "UMLS_CUI:C1864851"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0060280"
+    ]
+  },
+  {
+    "id": "DOID_0070548",
+    "name": "primary pigmented nodular adrenocortical disease 3",
+    "definition": "A primary pigmented nodular adrenocortical disease that has_material_basis_in heterozygous mutation in the PDE8B gene on chromosome 5q13.3.",
+    "synonyms": [
+      "PPNAD3"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:614190"
+      }
+    ],
+    "parents": [
+      "DOID_0060280"
+    ]
+  },
+  {
+    "id": "DOID_0070549",
+    "name": "primary pigmented nodular adrenocortical disease 4",
+    "definition": "A primary pigmented nodular adrenocortical disease that has_material_basis_in duplication on chromosome 19p13 that includes the PRKACA gene.",
+    "synonyms": [
+      "PPNAD4",
+      "chromosome 19p13 duplication syndrome"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:615830"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0060280"
+    ]
+  },
+  {
+    "id": "DOID_0070550",
+    "name": "KRT1-related nonepidermolytic palmoplantar keratoderma",
+    "definition": "A nonepidermolytic palmoplantar keratoderma that has_material_basis_in heterozygous mutation in the KRT1 gene on chromosome 12q13.13.",
+    "synonyms": [
+      "KRT1-related NEPPK"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:5186"
+      },
+      {
+        "val": "MIM:600962"
+      },
+      {
+        "val": "ORDO:530838"
+      },
+      {
+        "val": "UMLS_CUI:C5680142"
+      }
+    ],
+    "parents": [
+      "DOID_0050428"
+    ]
+  },
+  {
+    "id": "DOID_0070551",
+    "name": "epidermolytic palmoplantar keratoderma 2",
+    "definition": "An epidermolytic palmoplantar keratoderma that has_material_basis_in heterozygous mutation in the KRT1 gene on chromosome 12q13.13.",
+    "synonyms": [
+      "EPPK2"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:620411"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0080223"
+    ]
+  },
+  {
+    "id": "DOID_0070552",
+    "name": "epidermolytic palmoplantar keratoderma 1",
+    "definition": "An epidermolytic palmoplantar keratoderma that has_material_basis_in heterozygous mutation in the KRT9 gene on chromosome 17q12.2.",
+    "synonyms": [
+      "EPPK1"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:144200"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0080223"
+    ]
+  },
+  {
+    "id": "DOID_0070553",
+    "name": "focal palmoplantar and gingival keratosis",
+    "definition": "A palmoplantar keratosis characterized by hyperkeratosis on the weight-bearing areas of the soles, pressure-related areas of the palms, and the labial- and lingual-attached gingiva.",
+    "synonyms": [
+      "focal palmoplantar and gingival hyperkeratosis syndrome"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:3098"
+      },
+      {
+        "val": "MESH:C536157"
+      },
+      {
+        "val": "MIM:148730"
+      },
+      {
+        "val": "ORDO:2200"
+      },
+      {
+        "val": "UMLS_CUI:C1835650"
+      }
+    ],
+    "parents": [
+      "DOID_3390"
+    ]
+  },
+  {
+    "id": "DOID_0070554",
+    "name": "palmoplantar keratoderma and woolly hair",
+    "definition": "A nonepidermolytic palmoplantar keratoderma characterized by striate palmoplantar keratoderma, sparse and woolly hair, leukonychia, and the absence of cardiomyopathy symptoms or findings on echocardiography and electrocardiogram that has_material_basis_in homozygous mutation in the KANK2 gene on chromosome 19p13.2.",
+    "synonyms": [
+      "PPKWH",
+      "keratoderma with woolly hair type IV",
+      "woolly hair-palmoplantar keratoderma syndrome type 4"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:616099"
+      },
+      {
+        "val": "ORDO:420686"
+      },
+      {
+        "val": "UMLS_CUI:C4015202"
+      },
+      {
+        "val": "UMLS_CUI:C4706686"
+      }
+    ],
+    "parents": [
+      "DOID_0050428",
+      "DOID_0050737"
+    ]
+  },
+  {
+    "id": "DOID_0070555",
+    "name": "Nagashima-type palmoplantar keratosis",
+    "definition": "A nonepidermolytic palmoplantar keratoderma characterized by mild, well-demarcated, diffuse erythematous hyperkeratosis that is nonprogressive after the second decade of life which extends onto the dorsal surfaces of the palms and feet and the Achilles tendon area, with a high frequency of hyperhidrosis on the palms and soles and without flexion contractures or constricting bands that has_material_basis_in homozygous or compound heterozygous mutation in the SERPINB7 gene on chromosome 18q21.33.",
+    "synonyms": [
+      "NPPK",
+      "PPKN",
+      "palmoplantar keratoderma nagashima type"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:615598"
+      },
+      {
+        "val": "ORDO:140966"
+      },
+      {
+        "val": "UMLS_CUI:C3810072"
+      }
+    ],
+    "parents": [
+      "DOID_0050428",
+      "DOID_0050737"
+    ]
+  },
+  {
+    "id": "DOID_0070556",
+    "name": "cerebellar ataxia, impaired intellectual development, and dysequilibrium syndrome 1",
+    "definition": "A cerebellar ataxia, impaired intellectual development, and dysequilibrium syndrome that has_material_basis_in homozygous or compound heterozygous mutation in the VLDLR gene, which encodes the very low density lipoprotein receptor, on chromosome 9p24.2.",
+    "synonyms": [
+      "CAMRQ syndrome 1",
+      "CAMRQ1",
+      "DES-VLDLR",
+      "VLDLR cerebellar hypoplasia",
+      "VLDLR-CH",
+      "VLDLR-associated cerebellar hypoplasia",
+      "cerebellar ataxia and mental retardation with or without quadrupedal locomotion 1",
+      "cerebellar ataxia, mental retardation, and disequilibrium syndrome 1",
+      "cerebellar ataxia, mental retardation, and dysequilibrium syndrome 1",
+      "cerebellar hypoplasia, VLDLR-associated",
+      "dysequilibrium syndrome-VLDLR"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:224050"
+      },
+      {
+        "val": "UMLS_CUI:C4551552"
+      }
+    ],
+    "parents": [
+      "DOID_0050997"
+    ]
+  },
+  {
+    "id": "DOID_0070557",
+    "name": "cerebellar ataxia, impaired intellectual development, and dysequilibrium syndrome 2",
+    "definition": "A cerebellar ataxia, impaired intellectual development, and dysequilibrium syndrome that has_material_basis_in homozygous mutation in the WDR81 gene on chromosome 17p13.3.",
+    "synonyms": [
+      "CAMRQ syndrome 2",
+      "CAMRQ2",
+      "cerebellar ataxia and mental retardation with or without quadrupedal locomotion 2",
+      "cerebellar ataxia, mental retardation, and disequilibrium syndrome 2",
+      "cerebellar ataxia, mental retardation, and dysequilibrium syndrome 2"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MESH:C567656"
+      },
+      {
+        "val": "MIM:610185"
+      },
+      {
+        "val": "UMLS_CUI:C2750234"
+      }
+    ],
+    "parents": [
+      "DOID_0050997"
+    ]
+  },
+  {
+    "id": "DOID_0070558",
+    "name": "autosomal recessive spinocerebellar ataxia 34",
+    "definition": "An autosomal recessive cerebellar ataxia that has_material_basis_in homozygous mutation in the CA8 gene on chromosome 8q12.1.",
+    "synonyms": [
+      "CAMRQ syndrome 3",
+      "CAMRQ3",
+      "SCAR34",
+      "cerebellar ataxia and mental retardation with or without quadrupedal locomotion 3",
+      "cerebellar ataxia, impaired intellectual development, and dysequilibrium syndrome 3",
+      "cerebellar ataxia, mental retardation, and disequilibrium syndrome 3",
+      "spinocerebellar ataxia, autosomal recessive 34"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MESH:C567690"
+      },
+      {
+        "val": "MIM:613227"
+      },
+      {
+        "val": "UMLS_CUI:C2750509"
+      }
+    ],
+    "parents": [
+      "DOID_0050950"
+    ]
+  },
+  {
+    "id": "DOID_0070559",
+    "name": "cerebellar ataxia, impaired intellectual development, and dysequilibrium syndrome 4",
+    "definition": "A cerebellar ataxia, impaired intellectual development, and dysequilibrium syndrome that has_material_basis_in homozygous or compound heterozygous mutation in the ATP8A2 gene on chromosome 13q12.13.",
+    "synonyms": [
+      "CAMRQ syndrome 4",
+      "CAMRQ4",
+      "cerebellar ataxia and mental retardation with or without quadrupedal locomotion 4",
+      "cerebellar ataxia, mental retardation, and disequilibrium syndrome 4",
+      "cerebellar ataxia, mental retardation, and dysequilibrium syndrome 4"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:615268"
+      }
+    ],
+    "parents": [
+      "DOID_0050997"
+    ]
+  },
+  {
+    "id": "DOID_0070560",
+    "name": "glucose transporter type 1 deficiency syndrome",
+    "definition": "A glucose metabolism disease characterized by deficient glucose transport over the blood-brain barrier and reduced glucose availability in the central nervous system that has_material_basis_in mutation in the SLC2A1 on chromosome 1p34.2.",
+    "synonyms": [
+      "GLUT1DS"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MESH:C536830"
+      },
+      {
+        "val": "MIM:PS606777"
+      },
+      {
+        "val": "UMLS_CUI:C1847501"
+      }
+    ],
+    "parents": [
+      "DOID_0050739",
+      "DOID_4194"
+    ]
+  },
+  {
+    "id": "DOID_0070561",
+    "name": "glucose transporter type 1 deficiency syndrome 1",
+    "definition": "A glucose transporter type 1 deficiency syndrome characterized by infantile-onset epileptic encephalopathy associated with delayed development, acquired microcephaly, and complex movement disorders.",
+    "synonyms": [
+      "De Vivo disease",
+      "GLUT1 deficiency syndrome 1",
+      "GLUT1DS1",
+      "classic GLUT1 deficiency syndrome",
+      "classic GLUT1-DS",
+      "classic glucose transporter type 1 deficiency syndrome",
+      "encephalopathy due to GLUT1 deficiency"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:9265"
+      },
+      {
+        "val": "MIM:606777"
+      },
+      {
+        "val": "ORDO:71277"
+      },
+      {
+        "val": "UMLS_CUI:C4551966"
+      }
+    ],
+    "parents": [
+      "DOID_0070560"
+    ]
+  },
+  {
+    "id": "DOID_0070562",
+    "name": "Fanconi-Bickel syndrome",
+    "definition": "A glucose metabolism disease characterized by hepatorenal glycogen accumulation, proximal renal tubular dysfunction, and impaired utilization of glucose and galactose that has_material_basis_in homozygous or compound heterozygous mutations in the SLC2A2 gene on chromosome 3q26.2.",
+    "synonyms": [
+      "FBS",
+      "glycogen storage disease XI",
+      "glycogenosis type XI",
+      "glycogenosis, Fanconi type"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:2268"
+      },
+      {
+        "val": "MESH:D005198"
+      },
+      {
+        "val": "MIM:227810"
+      },
+      {
+        "val": "NCI:C168998"
+      },
+      {
+        "val": "ORDO:2088"
+      },
+      {
+        "val": "UMLS_CUI:C3495427"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_4194"
+    ]
+  },
+  {
+    "id": "DOID_0070563",
+    "name": "glucose-galactose malabsorption",
+    "definition": "A glucose metabolism disease characterized by a defect in glucose and galactose transport across the intestinal brush border, resulting in neonatal onset of life-threatening watery diarrhea and dehydration, that has_material_basis_in homozygous mutation in the SLC5A1 gene on chromosome 22q12.3.",
+    "synonyms": [
+      "GGM",
+      "SGLT1 deficiency",
+      "monosaccharide malabsorption"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:6521"
+      },
+      {
+        "val": "MESH:C562602"
+      },
+      {
+        "val": "MIM:606824"
+      },
+      {
+        "val": "ORDO:35710"
+      },
+      {
+        "val": "UMLS_CUI:C0268186"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_4194"
+    ]
+  },
+  {
+    "id": "DOID_0070564",
+    "name": "dialysis disequilibrium syndrome",
+    "definition": "A syndrome that occurs during or after hemodialysis, or rarely continuous renal replacement therapy, characterized by variable, primarily neurological symptoms including headache, nausea, blurred vision, restlessness, confusion, dizziness, muscle cramps, intraocular pressure and, in severe cases, seizures, somnolence, stupor, or coma.",
+    "synonyms": [
+      "DDS",
+      "dialysis dysequilibrium syndrome",
+      "disequilibrium syndrome",
+      "dysequilibrium syndrome"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C114781"
+      },
+      {
+        "val": "UMLS_CUI:C0403559"
+      }
+    ],
+    "parents": [
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0070565",
+    "name": "spermatogenic failure 66",
+    "definition": "A spermatogenic failure characterized by total globozoospermia that has_material_basis_in homozygous mutation in the ZPBP gene on chromosome 7p12.2.",
+    "synonyms": [
+      "SPGF66"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619799"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0112312"
+    ]
+  },
+  {
+    "id": "DOID_0070566",
+    "name": "spermatogenic failure 67",
+    "definition": "A spermatogenic failure characterized by globozoospermia that has_material_basis_in homozygous mutation in the CCDC62 gene on chromosome 12q24.31.",
+    "synonyms": [
+      "SPGF67"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619803"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0112312"
+    ]
+  },
+  {
+    "id": "DOID_0070567",
+    "name": "spermatogenic failure 68",
+    "definition": "A spermatogenic failure characterized by partial globozoospermia that has_material_basis_in homozygous mutation in the C2CD6 gene on chromosome 2q33.1.",
+    "synonyms": [
+      "SPGF68"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619805"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070568",
+    "name": "spermatogenic failure 69",
+    "definition": "A spermatogenic failure characterized by partial globozoospermia that has_material_basis_in homozygous mutation in the GGN on chromosome 19q13.2.",
+    "synonyms": [
+      "SPGF69"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619826"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070569",
+    "name": "spermatogenic failure 70",
+    "definition": "A spermatogenic failure characterized by azoospermia or sperm immotility and necrozoospermia that has_material_basis_in homozygous mutation in the PDHA2 gene on chromosome 4q22.3.",
+    "synonyms": [
+      "SPGF70"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619828"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070570",
+    "name": "spermatogenic failure 71",
+    "definition": "A spermatogenic failure characterized by nonobstructive azoospermia that has_material_basis_in homozygous mutation in the ZSWIM7 gene on chromosome 17p12.",
+    "synonyms": [
+      "SPGF71"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619831"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070571",
+    "name": "spermatogenic failure 72",
+    "definition": "A spermatogenic failure characterized by multiple morphologic abnormalities of the sperm flagella, resulting in lack of sperm motility, that has_material_basis_in homozygous mutation in the WDR19 gene on chromosome 4p14.",
+    "synonyms": [
+      "SPGF72"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619867"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070572",
+    "name": "spermatogenic failure 73",
+    "definition": "A spermatogenic failure characterized by nonobstructive azoospermia due to meiotic arrest that has_material_basis_in homozygous or compound heterozygous mutation in the MOV10L1 gene on chromosome 22q13.33.",
+    "synonyms": [
+      "SPGF73"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619878"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070573",
+    "name": "spermatogenic failure 74",
+    "definition": "A spermatogenic failure characterized by nonobstructive azoospermia due to complete meiotic arrest at the spermatocyte zygotene or pachytene stage that has_material_basis_in homozygous mutation in the MSH5 gene on chromosome 6p21.33.",
+    "synonyms": [
+      "SPGF74"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619937"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070574",
+    "name": "spermatogenic failure 75",
+    "definition": "A spermatogenic failure characterized by nonobstructive azoospermia resulting from maturation arrest at the spermatocyte stage that has_material_basis_in homozygous or compound heterozygous mutation in the SHOC1 gene on chromosome 9q31.3.",
+    "synonyms": [
+      "SPGF75"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619949"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070575",
+    "name": "spermatogenic failure 76",
+    "definition": "A spermatogenic failure characterized by oligoasthenoteratozoospermia that has_material_basis_in homozygous mutation in the CCDC34 gene on chromosome 11p14.1.",
+    "synonyms": [
+      "SPGF76"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620084"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070576",
+    "name": "spermatogenic failure 77",
+    "definition": "A spermatogenic failure characterized by extreme oligozoospermia or azoospermia that has_material_basis_in homozygous or compound heterozygous mutation in the FKBP6 gene on chromosome 7q11.23.",
+    "synonyms": [
+      "SPGF77"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620103"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070577",
+    "name": "spermatogenic failure 78",
+    "definition": "A spermatogenic failure characterized by sperm with abnormal acrosome structure due to a manchette assembly defect that has_material_basis_in homozygous mutation in the IQCN gene on chromosome 19p13.11.",
+    "synonyms": [
+      "SPGF78"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620170"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070578",
+    "name": "spermatogenic failure 79",
+    "definition": "A spermatogenic failure characterized by an abnormal acrosome reaction and impaired membrane potential after capacitation that has_material_basis_in homozygous mutation in the KCNU1 gene on chromosome 8p11.23.",
+    "synonyms": [
+      "SPGF79"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620196"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070579",
+    "name": "spermatogenic failure 80",
+    "definition": "A spermatogenic failure characterized by multiple morphologic abnormalities of the sperm flagella, resulting in reduced or absent progressive sperm motility, that has_material_basis_in homozygous mutation in the DRC1 gene on chromosome 2p23.3.",
+    "synonyms": [
+      "SPGF80"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620222"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070580",
+    "name": "spermatogenic failure 81",
+    "definition": "A spermatogenic failure characterized by oligoasthenoteratozoospermia with acrosomal hypoplasia and detachment of the acrosome from the sperm head that has_material_basis_in homozygous or compound heterozygous mutation in the TEKT3 gene on chromosome 17p12.",
+    "synonyms": [
+      "SPGF81"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620277"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070581",
+    "name": "spermatogenic failure 82",
+    "definition": "A spermatogenic failure characterized by multiple morphologic abnormalities of the sperm flagella that has_material_basis_in homozygous mutation in the AKAP3 gene on chromosome 12p13.32.",
+    "synonyms": [
+      "SPGF82"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620353"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070582",
+    "name": "spermatogenic failure 83",
+    "definition": "A spermatogenic failure characterized by asthenozoospermia and multiple flagella morphological defects due to loss in the inner dynein arms that has_material_basis_in homozygous mutation in the DNALI1 gene on chromosome 1p34.3.",
+    "synonyms": [
+      "SPGF83"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620354"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070583",
+    "name": "spermatogenic failure 84",
+    "definition": "A spermatogenic failure characterized by multiple morphologic abnormalities of the sperm flagella, resulting in severely reduced motility, that has_material_basis_in homozygous or compound heterozygous mutation in the CFAP61 gene on chromosome 20p11.23.",
+    "synonyms": [
+      "SPGF84"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620409"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070584",
+    "name": "spermatogenic failure 85",
+    "definition": "A spermatogenic failure characterized by globozoospermia and reduced progressive motility that has_material_basis_in homozygous mutation in the SPACA1 gene on chromosome 6q15.",
+    "synonyms": [
+      "SPGF85"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620490"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0112312"
+    ]
+  },
+  {
+    "id": "DOID_0070585",
+    "name": "spermatogenic failure 86",
+    "definition": "A spermatogenic failure characterized by acrosomal defects of the spermatozoa, resulting in oocyte activation deficiency and fertilization failure, that has_material_basis_in homozygous or compound heterozygous mutation in the ACTL7A gene on chromosome 9q31.3.",
+    "synonyms": [
+      "SPGF86"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620499"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070586",
+    "name": "spermatogenic failure 87",
+    "definition": "A spermatogenic failure characterized by total fertilization failure due to inability of mutant sperm to penetrate the zona pellucida that has_material_basis_in homozygous mutation in the ACR gene on chromosome 22q13.33.",
+    "synonyms": [
+      "SPGF87"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620500"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070587",
+    "name": "spermatogenic failure 88",
+    "definition": "A spermatogenic failure characterized by nonobstructive azoospermia due to prepachytene meiotic arrest of sperm that has_material_basis_in homozygous or compound heterozygous mutation in the KASH5 gene on chromosome 19q13.33.",
+    "synonyms": [
+      "SPGF88"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620547"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070588",
+    "name": "spermatogenic failure 89",
+    "definition": "A spermatogenic failure characterized by severely reduced progressive motility of sperm that has_material_basis_in homozygous or compound heterozygous mutation in the AK9 gene on chromosome 6q21.",
+    "synonyms": [
+      "SPGF89"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620705"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070589",
+    "name": "spermatogenic failure 90",
+    "definition": "A spermatogenic failure characterized by asthenozoospermia that has_material_basis_in homozygous or compound heterozygous mutation in the ARMC12 gene on chromosome 6p21.31.",
+    "synonyms": [
+      "SPGF90"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620744"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070590",
+    "name": "spermatogenic failure 91",
+    "definition": "A spermatogenic failure characterized by teratozoospermia, consisting of a misshapen rounded sperm head and detachment of the acrosome, and sperm that fail to attach to the zona pellucida that has_material_basis_in homozygous or compound heterozygous mutation in the CCIN gene on chromosome 9p13.3.",
+    "synonyms": [
+      "SPGF91"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620838"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070591",
+    "name": "spermatogenic failure 92",
+    "definition": "A spermatogenic failure characterized by asthenozoospermia that has_material_basis_in homozygous mutation in the LRRC23 gene on chromosome 12p13.31.",
+    "synonyms": [
+      "SPGF92"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620848"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070592",
+    "name": "spermatogenic failure 93",
+    "definition": "A spermatogenic failure characterized by nonosbtructive azoospermia or multiple morphologic abnormalities of the sperm flagella and markedly reduced progressive sperm motility that has_material_basis_in homozygous mutation in the STK33 gene on chromosome 11p15.4.",
+    "synonyms": [
+      "SPGF93"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620849"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070593",
+    "name": "spermatogenic failure 94",
+    "definition": "A spermatogenic failure characterized by multiple morphologic abnormalities of the sperm flagella and markedly reduced progressive sperm motility that has_material_basis_in homozygous mutation in the CCDC146 gene on chromosome 7q11.23.",
+    "synonyms": [
+      "SPGF94"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620850"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070594",
+    "name": "spermatogenic failure 95",
+    "definition": "A spermatogenic failure characterized by multiple morphologic abnormalities of the sperm flagella and markedly reduced progressive sperm motility that has_material_basis_in  homozygous mutation in the CFAP57 gene on chromosome 1p34.2.",
+    "synonyms": [
+      "SPGF95"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620917"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070595",
+    "name": "X-linked spermatogenic failure 4",
+    "definition": "A spermatogenic failure characterized by azoospermia or oligoasthenoteratozoospermia that has_material_basis_in hemizygous mutation in the GCNA gene on chromosome Xq13.1.",
+    "synonyms": [
+      "SPGFX4"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:301077"
+      }
+    ],
+    "parents": [
+      "DOID_0050735",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070596",
+    "name": "X-linked spermatogenic failure 5",
+    "definition": "A spermatogenic failure characterized by asthenoteratozoospermia with multiple morphologic abnormalities of the sperm flagella that has_material_basis_in hemizygous mutation in the SSX1 gene on chromosome Xp11.23.",
+    "synonyms": [
+      "SPGFX5"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:301099"
+      }
+    ],
+    "parents": [
+      "DOID_0050735",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070597",
+    "name": "X-linked spermatogenic failure 6",
+    "definition": "A spermatogenic failure characterized by asthenoteratozoospermia with multiple morphologic abnormalities of the sperm flagella that has_material_basis_in hemizygous mutation in the USP26 gene on chromosome Xq26.2.",
+    "synonyms": [
+      "SPGFX6"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:301101"
+      }
+    ],
+    "parents": [
+      "DOID_0050735",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070598",
+    "name": "X-linked spermatogenic failure 7",
+    "definition": "A spermatogenic failure characterized by sperm with insufficient individualization, excessive residual cytoplasm, acrosome defects, and abnormalities of the head and flagella, resulting in significantly reduced sperm concentration and progressive motility, that has_material_basis_in hemizygous mutation in the CT55 gene on chromosome Xq26.3.",
+    "synonyms": [
+      "SPGFX7"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:301106"
+      }
+    ],
+    "parents": [
+      "DOID_0080012",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070599",
+    "name": "X-linked spermatogenic failure 8",
+    "definition": "A spermatogenic failure characterized by sperm with head and midpiece defects, deformed and detached acrosomes, and markedly reduced progressive motility that has_material_basis_in hemizygous mutation in the CYLC1 gene on chromosome Xq21.1.",
+    "synonyms": [
+      "SPGFX8"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:301119"
+      }
+    ],
+    "parents": [
+      "DOID_0050735",
+      "DOID_0111910"
+    ]
+  },
+  {
+    "id": "DOID_0070600",
+    "name": "intellectual disability and myopathy syndrome",
+    "definition": "A syndrome characterized by global developmental delay with mildly impaired intellectual development, hypotonia, muscle weakness and fatigue, and abnormalities in brain white matter that has_material_basis in homozygous or compound heterozygous mutation in the ABCC9 on chromosome 12p12.",
+    "synonyms": [
+      "ABCC9-related intellectual disability and myopathy",
+      "AIMS",
+      "IDMYS"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619719"
+      }
+    ],
+    "parents": [
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0070601",
+    "name": "autosomal dominant nonsyndromic deafness 37",
+    "definition": "An autosomal dominant nonsyndromic deafness that has_material_basis_in heterozygous mutation in the COL11A1 gene on chromosome 1p21.1.",
+    "synonyms": [
+      "DFNA37",
+      "autosomal dominant deafness 37"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618533"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070602",
+    "name": "autosomal dominant nonsyndromic deafness 80",
+    "definition": "An autosomal dominant nonsyndromic deafness characterized by congenital deafness associated with absent or malformed cochleae and eighth cranial nerves that has_material_basis_in heterozygous mutation in the GREB1L gene on chromosome 18q11.",
+    "synonyms": [
+      "DFNA80",
+      "autosomal dominant deafness 80"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619274"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070603",
+    "name": "autosomal dominant nonsyndromic deafness 82",
+    "definition": "An autosomal dominant nonsyndromic deafness characterized by onset of rapidly progressive bilateral sensorineural hearing loss usually early in the first decade that has_material_basis_in heterozygous mutation in the ATP2B2 gene on chromosome 3p25.1.",
+    "synonyms": [
+      "DFNA82",
+      "autosomal dominant deafness 82"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619804"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070604",
+    "name": "autosomal dominant nonsyndromic deafness 84",
+    "definition": "An autosomal dominant nonsyndromic deafness characterized by bilateral, progressive sensorineural hearing loss with variable onset and audiogram shape that has_material_basis_in heterozygous mutation in the ATP11A gene on chromosome 13q34.",
+    "synonyms": [
+      "DFNA84",
+      "autosomal dominant deafness 84"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619810"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070605",
+    "name": "autosomal dominant nonsyndromic deafness 85",
+    "definition": "An autosomal dominant nonsyndromic deafness that has_material_basis_in heterozygous mutation in the USP48 gene on chromosome 1p36.",
+    "synonyms": [
+      "DFNA85",
+      "autosomal dominant deafness 85"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620227"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070606",
+    "name": "autosomal dominant nonsyndromic deafness 87",
+    "definition": "An autosomal dominant nonsyndromic deafness characterized by prelingual profound sensorineural hearing loss with inner ear anomalies, including cochlear maldevelopment, absence of the osseous spiral lamina, and/or an enlarged vestibular aqueduct that has_material_basis_in heterozygous mutation in the PI4KB gene on chromosome 1q21.",
+    "synonyms": [
+      "DFNA87",
+      "autosomal dominant deafness 87"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620281"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070607",
+    "name": "autosomal dominant nonsyndromic deafness 90",
+    "definition": "An autosomal dominant nonsyndromic deafness that has_material_basis_in heterozygous mutation in the MYO3A gene on chromosome 10p12.",
+    "synonyms": [
+      "DFNA90",
+      "autosomal dominant deafness 90"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620722"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070608",
+    "name": "autosomal dominant nonsyndromic deafness 81",
+    "definition": "An autosomal dominant nonsyndromic deafness that has_material_basis_in heterozygous mutation in the ELMOD3 gene on chromosome 2p11.",
+    "synonyms": [
+      "DFNA81",
+      "autosomal dominant deafness 81"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619500"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070609",
+    "name": "autosomal dominant nonsyndromic deafness 83",
+    "definition": "An autosomal dominant nonsyndromic deafness that has_material_basis_in heterozygous mutation in the MAP1B gene on chromosome 5q13.",
+    "synonyms": [
+      "DFNA83",
+      "autosomal dominant deafness 83"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619808"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070610",
+    "name": "autosomal dominant nonsyndromic deafness 86",
+    "definition": "An autosomal dominant nonsyndromic deafness characterized by late-onset progressive hearing loss through p53-mediated hair cell apoptosis that has_material_basis_in heterozygous mutation in the THOC1 gene on chromosome 18p11.",
+    "synonyms": [
+      "DFNA86",
+      "autosomal dominant deafness 86"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620280"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070611",
+    "name": "autosomal dominant nonsyndromic deafness 88",
+    "definition": "An autosomal dominant nonsyndromic deafness characterized by postlingual progressive severe sensorineural hearing loss with tinnitus that has_material_basis_in heterozygous mutation in the EPHA10 gene on chromosome 1p34.",
+    "synonyms": [
+      "DFNA88",
+      "autosomal dominant deafness 88"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620283"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070612",
+    "name": "autosomal dominant nonsyndromic deafness 89",
+    "definition": "An autosomal dominant nonsyndromic deafness that has_material_basis_in heterozygous mutation in the ATOH1 gene on chromosome 4q22.",
+    "synonyms": [
+      "DFNA89",
+      "autosomal dominant deafness 89"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620284"
+      }
+    ],
+    "parents": [
+      "DOID_0050564"
+    ]
+  },
+  {
+    "id": "DOID_0070613",
+    "name": "familial renal glucosuria",
+    "definition": "A renal glycosuria that has_material_basis_in homozygous, compound heterozygous, or heterozygous mutation in the SLC5A2 gene on chromosome 16p11.2.",
+    "synonyms": [
+      "FRG",
+      "SGLT2 deficiency",
+      "familial renal glycosuria",
+      "hereditary renal glycosuria"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:7548"
+      },
+      {
+        "val": "MESH:D006030"
+      },
+      {
+        "val": "MIM:233100"
+      },
+      {
+        "val": "ORDO:69076"
+      },
+      {
+        "val": "SNOMEDCT_US_2023_03_01:226309007"
+      },
+      {
+        "val": "UMLS_CUI:C3245525"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0050737",
+      "DOID_9432"
+    ]
+  },
+  {
+    "id": "DOID_0070614",
+    "name": "chromosome 11 partial duplication syndrome",
+    "definition": "A chromosomal duplication syndrome that has_material_basis_in one or more extra copies of a region of chromosome 11.",
+    "synonyms": [
+      "partial duplication of chromosome 11",
+      "partial trisomy 11"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "ORDO:262653"
+      },
+      {
+        "val": "SNOMEDCT_US_2023_03_01:726350006"
+      },
+      {
+        "val": "UMLS_CUI:C4518499"
+      }
+    ],
+    "parents": [
+      "DOID_0060429"
+    ]
+  },
+  {
+    "id": "DOID_0070615",
+    "name": "autoinflammation, antibody deficiency, and immune dysregulation syndrome",
+    "definition": "An autoimmune disease characterized by recurrent blistering skin lesions with a dense inflammatory infiltrate and variable involvement of other tissues, including joints, the eye, and the gastrointestinal tract that has_material_basis in heterozygous mutation in PLCG2 on chromosome 16q23.",
+    "synonyms": [
+      "APLAID",
+      "autoinflammation and PLCG2-associated antibody deficiency and immune dysregulation"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:17486"
+      },
+      {
+        "val": "MIM:614878"
+      },
+      {
+        "val": "ORDO:324530"
+      },
+      {
+        "val": "UMLS_CUI:C3553961"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_612"
+    ]
+  },
+  {
+    "id": "DOID_0070616",
+    "name": "glycine encephalopathy 1",
+    "definition": "A glycine encephalopathy that has_material_basis_in homozygous or compound heterozygous mutation in the GLDC gene, a member of the mitochondrial glycine cleavage system that encodes the P protein, on chromosome 9p24.",
+    "synonyms": [
+      "GCE1"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:605899"
+      }
+    ],
+    "parents": [
+      "DOID_9268"
+    ]
+  },
+  {
+    "id": "DOID_0070617",
+    "name": "rhabdoid tumor predisposition syndrome",
+    "definition": "A syndrome characterized by a markedly increased risk for the development of rhabdoid tumors, rare and highly aggressive malignant tumors occurring in almost any anatomical location predominantly in infants and young children.",
+    "synonyms": [
+      "RTPS",
+      "familial posterior fossa brain tumor syndrome of infancy",
+      "rhabdoid predisposition syndrome"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:PS609322"
+      },
+      {
+        "val": "NCI:C93268"
+      },
+      {
+        "val": "ORDO:231108"
+      },
+      {
+        "val": "UMLS_CUI:C2985524"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0070618",
+    "name": "rhabdoid tumor predisposition syndrome 1",
+    "definition": "A rhabdoid tumor predisposition syndrome that has_material_basis_in heterozygous germline mutation in the SMARCB1 gene on chromosome 22q11.",
+    "synonyms": [
+      "RTPS1"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:609322"
+      }
+    ],
+    "parents": [
+      "DOID_0070617"
+    ]
+  },
+  {
+    "id": "DOID_0070619",
+    "name": "mitochondrial trifunctional protein deficiency 1",
+    "definition": "A mitochondrial trifunctional protein deficiency that has_material_basis_in homozygous or compound heterozygous mutation in the HADHA gene, the alpha subunit of the mitochondrial trifunctional protein, on chromosome 2p23.3.",
+    "synonyms": [
+      "MTPD1"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:609015"
+      }
+    ],
+    "parents": [
+      "DOID_0111277"
+    ]
+  },
+  {
+    "id": "DOID_0070620",
+    "name": "ring chromosome syndrome",
+    "definition": "A chromosomal disease that has_material_basis_in chromosome fusion into a ring or ring-like structure. Ring chromosome syndrome phenotypes are inherently variable.",
+    "synonyms": [
+      "ring syndrome",
+      "RC",
+      "ring chromosome"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICD10CM:Q93.2"
+      },
+      {
+        "val": "MESH:D012303"
+      },
+      {
+        "val": "ORDO:363203"
+      },
+      {
+        "val": "UMLS_CUI:C0035639"
+      }
+    ],
+    "parents": [
+      "DOID_0080014"
+    ]
+  },
+  {
+    "id": "DOID_0070621",
+    "name": "ring chromosome 14 syndrome",
+    "definition": "A ring chromosome syndrome characterized by early-onset epilepsy, developmental delay with mental retardation and poor speech, microcephaly, and dysmorphic facial features that has_material_basis_in chromosome 14 fusion into a ring or ring-like structure.",
+    "synonyms": [
+      "r(14) syndrome",
+      "r14 syndrome",
+      "ring 14 syndrome",
+      "ring 14",
+      "ring chromosome 14"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "GARD:6072"
+      },
+      {
+        "val": "MESH:C535487"
+      },
+      {
+        "val": "MIM:616606"
+      },
+      {
+        "val": "ORDO:1440"
+      },
+      {
+        "val": "UMLS_CUI:C2930916"
+      }
+    ],
+    "parents": [
+      "DOID_0070620"
+    ]
+  },
+  {
+    "id": "DOID_0070622",
+    "name": "ring chromosome 20 syndrome",
+    "definition": "A ring chromosome syndrome characterized by recognizable epileptic phenotype with typical EEG pattern, intellectual disability manifesting after seizure onset in otherwise normally developing children, and behavioral changes that has_material_basis_in chromosome 20 fusion into a ring or ring-like structure.",
+    "synonyms": [
+      "r(20) syndrome",
+      "r20 syndrome",
+      "ring 20 syndrome",
+      "ring chromosome 20 epilepsy syndrome",
+      "ring 20",
+      "ring chromosome 20"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "GARD:1334"
+      },
+      {
+        "val": "MESH:C580424"
+      },
+      {
+        "val": "NCI:C169001"
+      },
+      {
+        "val": "ORDO:1444"
+      },
+      {
+        "val": "UMLS_CUI:C0265482"
+      }
+    ],
+    "parents": [
+      "DOID_0070620"
+    ]
+  },
+  {
+    "id": "DOID_0070623",
+    "name": "B-lymphoblastic leukemia with MEF2D rearrangement",
+    "definition": "A B-lymphoblastic leukemia/lymphoma associated with MEF2D gene rearrangement.",
+    "synonyms": [
+      "B-lymphoblastic leukaemia with MEF2D rearrangement"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9811/3"
+      },
+      {
+        "val": "NCI:C199233"
+      },
+      {
+        "val": "UMLS_CUI:C5855479"
+      }
+    ],
+    "parents": [
+      "DOID_0080630"
+    ]
+  },
+  {
+    "id": "DOID_0070624",
+    "name": "B-lymphoblastic leukemia with MYC rearrangement",
+    "definition": "A B-lymphoblastic leukemia/lymphoma associated with MYC gene rearrangement.",
+    "synonyms": [
+      "B Acute Lymphoblastic Leukemia with MEF2D Rearrangement",
+      "B-lymphoblastic leukaemia with MYC rearrangement"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9811/3"
+      },
+      {
+        "val": "NCI:C199230"
+      },
+      {
+        "val": "UMLS_CUI:C5855476"
+      }
+    ],
+    "parents": [
+      "DOID_0080630"
+    ]
+  },
+  {
+    "id": "DOID_0070625",
+    "name": "B-lymphoblastic leukemia with NUTM1 rearrangement",
+    "definition": "A B-lymphoblastic leukemia/lymphoma associated with NUTM1 gene rearrangement.",
+    "synonyms": [
+      "B-lymphoblastic leukaemia with NUTM1 rearrangement"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9811/3"
+      },
+      {
+        "val": "NCI:C199239"
+      },
+      {
+        "val": "UMLS_CUI:C5855485"
+      }
+    ],
+    "parents": [
+      "DOID_0080630"
+    ]
+  },
+  {
+    "id": "DOID_0070626",
+    "name": "B-lymphoblastic leukemia with PAX5alt",
+    "definition": "A B-lymphoblastic leukemia/lymphoma associated with PAX5 gene alteration, including rearrangements, point mutations, and intragenic lesions.",
+    "synonyms": [
+      "B-Acute Lymphoblastic Leukemia with PAX5 Alteration",
+      "B-lymphoblastic leukaemia with PAX5alt"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9811/3"
+      },
+      {
+        "val": "NCI:C199264"
+      },
+      {
+        "val": "UMLS_CUI:C5855502"
+      }
+    ],
+    "parents": [
+      "DOID_0080630"
+    ]
+  },
+  {
+    "id": "DOID_0070627",
+    "name": "B-lymphoblastic leukemia with TCF3-HLF fusion",
+    "definition": "A B-lymphoblastic leukemia/lymphoma associated with TCF3-HLF gene rearrangement.",
+    "synonyms": [
+      "B Lymphoblastic Leukemia/Lymphoma with TCF3-HLF Fusion",
+      "B Lymphoblastic Leukemia/Lymphoma with TCF3-HLF Rearrangement",
+      "B-lymphoblastic leukaemia with TCF3::HLF fusion",
+      "B-lymphoblastic leukemia with TCF3::HLF fusion"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9811/3"
+      },
+      {
+        "val": "NCI:C200587"
+      },
+      {
+        "val": "ORDO:641375"
+      },
+      {
+        "val": "UMLS_CUI:C5816789"
+      },
+      {
+        "val": "UMLS_CUI:C5856321"
+      }
+    ],
+    "parents": [
+      "DOID_0080630"
+    ]
+  },
+  {
+    "id": "DOID_0070628",
+    "name": "B-lymphoblastic leukemia with ZNF384 rearrangement",
+    "definition": "A B-lymphoblastic leukemia/lymphoma associated with ZNF384 gene rearrangement.",
+    "synonyms": [
+      "B-lymphoblastic leukaemia with ZNF384 rearrangement"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9811/3"
+      },
+      {
+        "val": "NCI:C199234"
+      },
+      {
+        "val": "UMLS_CUI:C5855480"
+      }
+    ],
+    "parents": [
+      "DOID_0080630"
+    ]
+  },
+  {
+    "id": "DOID_0070629",
+    "name": "acute myeloid leukemia with CBFA2T3-GLIS2 fusion",
+    "definition": "An acute myeloid leukemia associated with CBFA2T3-GLIS2 chimeric oncogene.",
+    "synonyms": [
+      "Acute Megakaryoblastic Leukemia with CBFA2T3-GLIS2",
+      "Acute myeloid leukaemia with CBFA2T3::GLIS2 fusion",
+      "acute myeloid leukemia with CBFA2T3::GLIS2 fusion",
+      "acute myeloid leukemia with inv(16)(p13q24)"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9861/3"
+      },
+      {
+        "val": "NCI:C132109"
+      },
+      {
+        "val": "UMLS_CUI:C4329266"
+      }
+    ],
+    "parents": [
+      "DOID_9119"
+    ]
+  },
+  {
+    "id": "DOID_0070630",
+    "name": "acute myeloid leukemia with KAT6A-CREBBP fusion",
+    "definition": "An acute myeloid leukemia associated with KAT6A-CREBBP gene fusion.",
+    "synonyms": [
+      "Acute myeloid leukaemia with KAT6A::CREBBP fusion",
+      "Acute myeloid leukemia with t(8;16)(p11;p13) translocation",
+      "acute myeloid leukemia with KAT6A::CREBBP fusion"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9861/3"
+      },
+      {
+        "val": "NCI:C200421"
+      },
+      {
+        "val": "ORDO:370026"
+      },
+      {
+        "val": "UMLS_CUI:C4511003"
+      }
+    ],
+    "parents": [
+      "DOID_9119"
+    ]
+  },
+  {
+    "id": "DOID_0070631",
+    "name": "acute myeloid leukemia with FUS-ERG fusion",
+    "definition": "An acute myeloid leukemia associated with FUS-ERG gene fusion.",
+    "synonyms": [
+      "Acute myeloid leukaemia with FUS::ERG fusion",
+      "acute myeloid leukemia with FUS::ERG fusion",
+      "acute myeloid leukemia with t(16;21)(p11.2;q22)"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9861/3"
+      },
+      {
+        "val": "NCI:C200419"
+      },
+      {
+        "val": "UMLS_CUI:C5856227"
+      }
+    ],
+    "parents": [
+      "DOID_9119"
+    ]
+  },
+  {
+    "id": "DOID_0070632",
+    "name": "acute myeloid leukemia with MNX1-ETV6 fusion",
+    "definition": "An acute myeloid leukemia associated with MXN1-ETV6 gene fusion.",
+    "synonyms": [
+      "Acute Myeloid Leukemia with t(7;12)(q36;p13); HLXB9-ETV6",
+      "Acute myeloid leukaemia with MNX1::ETV6 fusion",
+      "acute myeloid leukemia with MNX1::ETV6 fusion",
+      "acute myeloid leukemia with t(7;12)(q36;p13)"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9861/3"
+      },
+      {
+        "val": "NCI:C122690"
+      },
+      {
+        "val": "UMLS_CUI:C4055493"
+      }
+    ],
+    "parents": [
+      "DOID_9119"
+    ]
+  },
+  {
+    "id": "DOID_0070633",
+    "name": "acute myeloid leukemia with NPM1-MLF1 fusion",
+    "definition": "An acute myeloid leukemia associated with NPM1-MLF1 gene fusion.",
+    "synonyms": [
+      "Acute myeloid leukaemia with NPM1::MLF1 fusion",
+      "acute myeloid leukemia with NPM1::MLF1 fusion",
+      "acute myeloid leukemia with t(3;5)(q25;q35)"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "ICDO:9861/3"
+      },
+      {
+        "val": "NCI:C200420"
+      },
+      {
+        "val": "UMLS_CUI:C5856228"
+      }
+    ],
+    "parents": [
+      "DOID_9119"
+    ]
+  },
+  {
+    "id": "DOID_0081399",
+    "name": "autosomal dominant distal hereditary motor neuronopathy 10",
+    "definition": "An autosomal dominant distal hereditary motor neuronopathy that is characterized clinically by length-dependent motor neuropathy primarily affecting the lower limbs and that has_material_basis_in heterozygous mutation in the EMILIN1 gene on chromosome 2p23.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620080"
+      }
+    ],
+    "parents": [
+      "DOID_0111198"
+    ]
+  },
+  {
+    "id": "DOID_0081400",
+    "name": "autosomal dominant distal hereditary motor neuronopathy 11",
+    "definition": "An autosomal dominant distal hereditary motor neuronopathy that is characterized by juvenile or young-adult onset of distal limb muscle weakness and atrophy mainly affecting the lower limbs, resulting in gait instability and walking difficulties and that has_material_basis_in heterozygous mutation in the SPTAN1 gene on chromosome 9q34.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620528"
+      }
+    ],
+    "parents": [
+      "DOID_0111198"
+    ]
+  },
+  {
+    "id": "DOID_0081401",
+    "name": "autosomal dominant distal hereditary motor neuronopathy 13",
+    "definition": "An autosomal dominant distal hereditary motor neuronopathy that is characterized by distal muscle weakness and atrophy affecting both the upper and lower limbs, resulting in difficulty walking and poor fine hand motor skills and that has_material_basis_in heterozygous mutation in the BSCL2 gene on chromosome 11q12.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619112"
+      }
+    ],
+    "parents": [
+      "DOID_0111198"
+    ]
+  },
+  {
+    "id": "DOID_0081402",
+    "name": "sarcoma with BCOR genetic alterations",
+    "definition": "A small cell sarcoma that is characterized by the presence of small round or elongated malignant cells with a small amount of cytoplasm and the presence of BCOR genetic alterations.",
+    "synonyms": [
+      "BCOR-Rearranged Sarcoma"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "ICDO:9368/3"
+      },
+      {
+        "val": "NCI:C178465"
+      }
+    ],
+    "parents": [
+      "DOID_3098"
+    ]
+  },
+  {
+    "id": "DOID_0081403",
+    "name": "BCOR ITD sarcoma",
+    "definition": "A sarcoma with BCOR genetic alterations that is characterized by the presence of BCOR internal tandem duplication.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C178468"
+      }
+    ],
+    "parents": [
+      "DOID_0081402"
+    ]
+  },
+  {
+    "id": "DOID_0081404",
+    "name": "BCOR-CCNB3 sarcoma",
+    "definition": "A sarcoma with BCOR genetic alterations that is characterized by the presence of BCOR-CCNB3 fusion gene.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C178466"
+      }
+    ],
+    "parents": [
+      "DOID_0081402"
+    ]
+  },
+  {
+    "id": "DOID_0081405",
+    "name": "childhood sarcoma with BCOR genetic alterations",
+    "definition": "A sarcoma with BCOR genetic alterations that occurs during childhood.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#DO_childhood_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C189007"
+      }
+    ],
+    "parents": [
+      "DOID_0081402"
+    ]
+  },
+  {
+    "id": "DOID_0081406",
+    "name": "round cell sarcoma with EWSR1-non-ETS fusion",
+    "definition": "A small cell sarcoma that is characterized by the presence of EWSR1 or FUS fusions involving partners unrelated to the ETS gene family.",
+    "synonyms": [
+      "Ewing-Like Sarcoma or Round Cell Sarcoma",
+      "Round Cell Sarcoma with EWSR1::non-ETS Fusion"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "ICDO:9366/3"
+      },
+      {
+        "val": "NCI:C178459"
+      }
+    ],
+    "parents": [
+      "DOID_3098"
+    ]
+  },
+  {
+    "id": "DOID_0081407",
+    "name": "childhood round cell sarcoma with EWSR1-non-ETS fusion",
+    "definition": "A round cell sarcoma with EWSR1-non-ETS fusion that is characterized by EWSR1-non-ETS fusion that occurs during childhood.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#DO_childhood_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C189003"
+      }
+    ],
+    "parents": [
+      "DOID_0081406"
+    ]
+  },
+  {
+    "id": "DOID_0081408",
+    "name": "round cell sarcoma with EWSR1-NFATC2 gene fusion",
+    "definition": "A round cell sarcoma with EWSR1-non-ETS fusion that is characterized by the presence of EWSR1-NFATC2 gene fusion.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C178460"
+      }
+    ],
+    "parents": [
+      "DOID_0081406"
+    ]
+  },
+  {
+    "id": "DOID_0081409",
+    "name": "round cell sarcoma with EWSR1-PATZ1 gene fusion",
+    "definition": "A round cell sarcoma with EWSR1-non-ETS fusion that is characterized by the presence of EWSR1-PATZ1 gene fusion.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C178461"
+      }
+    ],
+    "parents": [
+      "DOID_0081406"
+    ]
+  },
+  {
+    "id": "DOID_0081410",
+    "name": "round cell sarcoma with FUS-NFATC2 gene fusion",
+    "definition": "A round cell sarcoma with EWSR1-non-ETS fusion that is characterized by the presence of FUS-NFATC2 gene fusion.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C178462"
+      }
+    ],
+    "parents": [
+      "DOID_0081406"
+    ]
+  },
+  {
+    "id": "DOID_0081411",
+    "name": "B-lymphoblastic leukemia with PAX5 p.P80R",
+    "definition": "A B-lymphoblastic leukemia/lymphoma that is associated with PAX5 P80R mutation.",
+    "synonyms": [
+      "B acute lymphoblastic leukemia with PAX5 P80R mutation",
+      "B-lymphoblastic leukaemia with PAX5 p.P80R",
+      "B-lymphoblastic leukemia with PAX5 P80R"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "ICDO:9811/3"
+      },
+      {
+        "val": "NCI:C199260"
+      }
+    ],
+    "parents": [
+      "DOID_0080630"
+    ]
+  },
+  {
+    "id": "DOID_0081412",
+    "name": "B-lymphoblastic leukemia with DUX4 rearrangement",
+    "definition": "A B lymphoblastic leukemia/lymphoma that is associated with DUX4 gene rearrangement.",
+    "synonyms": [
+      "B acute lymphoblastic leukemia with DUX4 rearrangement",
+      "B-lymphoblastic leukaemia with DUX4 rearrangement"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "ICDO:9811/3"
+      },
+      {
+        "val": "NCI:C199232"
+      }
+    ],
+    "parents": [
+      "DOID_0080630"
+    ]
+  },
+  {
+    "id": "DOID_0081413",
+    "name": "renal cell carcinoma with MiT translocations",
+    "definition": "A renal cell carcinoma that is characterized by papillary, alveolar and nested growth patterns with clear and eosinophilic cells and that is associated with translocations/gene fusions involving members of the MiT family of transcription factors.",
+    "synonyms": [
+      "MiT Family Translocation-Associated Renal Cell Carcinoma",
+      "MiT family translocation renal cell carcinoma"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "ICDO:8311/3"
+      },
+      {
+        "val": "NCI:C154494"
+      }
+    ],
+    "parents": [
+      "DOID_4450"
+    ]
+  },
+  {
+    "id": "DOID_0081414",
+    "name": "TFEB-rearranged renal cell carcinoma",
+    "definition": "A renal cell carcinoma with MiT translocations that is characterized by the presence of the chromosomal translocation t(6;11) which fuses the TFEB transcription factor gene, located on chromosome 6, with the MALAT1 gene, located on chromosome 11.",
+    "synonyms": [
+      "Renal Cell Carcinoma with t(6;11);(p21;q12); MALAT1-TFEB",
+      "Renal Cell Carcinoma with t(6;11);(p21;q12); MALAT1::TFEB",
+      "t(6;11) Renal Cell Carcinoma",
+      "t(6;11);(p21;q12) Renal Cell Carcinoma"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C37210"
+      }
+    ],
+    "parents": [
+      "DOID_0081413"
+    ]
+  },
+  {
+    "id": "DOID_0081415",
+    "name": "TFE3-rearranged renal cell carcinoma",
+    "definition": "A renal cell carcinoma with MiT translocations that is characterized by the presence of different translocations involving the chromosome Xp11.2 and that result in the creation of gene fusions involving the TFE3 gene.",
+    "synonyms": [
+      "Renal Cell Carcinoma Associated with Xp11.2 Translocations/TFE3 Gene Fusions",
+      "Xp11 Translocation Renal Cell Carcinoma"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C27891"
+      }
+    ],
+    "parents": [
+      "DOID_0081413"
+    ]
+  },
+  {
+    "id": "DOID_0081416",
+    "name": "childhood renal cell carcinoma with MiT translocations",
+    "definition": "A renal cell carcinoma with MiT translocations that is characterized by a TFE3 or TFEB-rearranged renal cell carcinoma that occurs during childhood.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#DO_childhood_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C189242"
+      }
+    ],
+    "parents": [
+      "DOID_0081413"
+    ]
+  },
+  {
+    "id": "DOID_0081417",
+    "name": "poorly differentiated chordoma",
+    "definition": "A chordoma that is characterized by loss of SMARCB1 expression and that is composed of sheets or nests of malignant epithelioid cells with abundant eosinophilic cytoplasm.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "ICDO:9370/3"
+      },
+      {
+        "val": "NCI:C177898"
+      }
+    ],
+    "parents": [
+      "DOID_3302"
+    ]
+  },
+  {
+    "id": "DOID_0081418",
+    "name": "anaplastic sarcoma of the kidney",
+    "definition": "A kidney sarcoma that is characterized by a proliferation of anaplastic spindle cells with bizarre, pleomorphic nuclei and atypical mitotic figures.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_cancer_slim",
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "ICDO:8802/3"
+      },
+      {
+        "val": "NCI:C154496"
+      }
+    ],
+    "parents": [
+      "DOID_4242"
+    ]
+  },
+  {
+    "id": "DOID_0081419",
+    "name": "childhood-onset dystonia with optic atrophy and basal ganglia abnormalities",
+    "definition": "A dystonia that is characterized by characterized by onset of involuntary movements in the first decade of life and that has_material_basis_in homozygous or compound heterozygous mutation in the MECR gene on chromosome 1p35.  Optic atrophy develops around the same time or slightly later.",
+    "synonyms": [
+      "DYSTONIA 29, CHILDHOOD-ONSET",
+      "DYTOABG",
+      "MECR-related neurologic disorder",
+      "MEPAN syndrome",
+      "Mitochondrial Enoyl CoA Reductase Protein-Associated Neurodegeneration"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:13488"
+      },
+      {
+        "val": "MIM:617282"
+      },
+      {
+        "val": "ORDO:508093"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_543"
+    ]
+  },
+  {
+    "id": "DOID_0081420",
+    "name": "familial focal epilepsy with variable foci",
+    "definition": "A focal epilepsy that is characterized by focal seizures, with seizure onset in a discrete area of the brain including the temporal, frontal, parietal, and occipital lobes, with focal seizures arising from different cortical regions in different family members.",
+    "synonyms": [
+      "DEPDC5-related epilepsy"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:13295"
+      },
+      {
+        "val": "MIM:PS604364"
+      },
+      {
+        "val": "ORDO:98820"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_2234"
+    ]
+  },
+  {
+    "id": "DOID_0081421",
+    "name": "familial focal epilepsy with variable foci 1",
+    "definition": "A familial focal epilepsy with variable foci that is characterized by focal seizures arising from different cortical regions in different family members and that has_material_basis_in heterozygous mutation in the DEPDC5 gene on chromosome 22q12.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:604364"
+      }
+    ],
+    "parents": [
+      "DOID_0081420"
+    ]
+  },
+  {
+    "id": "DOID_0081422",
+    "name": "familial focal epilepsy with variable foci 2",
+    "definition": "A familial focal epilepsy with variable foci that has_material_basis_in  heterozygous mutation in the NPRL2 gene on chromosome 3p21.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617116"
+      }
+    ],
+    "parents": [
+      "DOID_0081420"
+    ]
+  },
+  {
+    "id": "DOID_0081423",
+    "name": "familial focal epilepsy with variable foci 3",
+    "definition": "A familial focal epilepsy with variable foci that has_material_basis_in  heterozygous mutation in the NPRL3 gene on chromosome 16p13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617118"
+      }
+    ],
+    "parents": [
+      "DOID_0081420"
+    ]
+  },
+  {
+    "id": "DOID_0081424",
+    "name": "familial focal epilepsy with variable foci 4",
+    "definition": "A familial focal epilepsy with variable foci that is characterized by onset of focal seizures in the first years of life and that has_material_basis_in heterozygous mutation in the SCN3A gene on chromosome 2q24.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617935"
+      }
+    ],
+    "parents": [
+      "DOID_0081420"
+    ]
+  },
+  {
+    "id": "DOID_0081425",
+    "name": "autosomal recessive distal hereditary motor neuronopathy 6",
+    "definition": "An autosomal recessive distal hereditary motor neuronopathy characterized by onset of distal muscle weakness in early infancy and that has_material_basis_in homozygous mutation in the REEP1 gene on chromosome 2p11.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620011"
+      }
+    ],
+    "parents": [
+      "DOID_0111197"
+    ]
+  },
+  {
+    "id": "DOID_0081426",
+    "name": "autosomal recessive distal hereditary motor neuronopathy 7",
+    "definition": "An autosomal recessive distal hereditary motor neuronopathy characterized by onset of lower leg weakness in the first decade and that has_material_basis_in homozygous or compound heterozygous mutation in the VWA1 gene on chromosome 1p36.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619216"
+      }
+    ],
+    "parents": [
+      "DOID_0111197"
+    ]
+  },
+  {
+    "id": "DOID_0081427",
+    "name": "autosomal recessive distal hereditary motor neuronopathy 8",
+    "definition": "An autosomal recessive distal hereditary motor neuronopathy characterized by onset of distal muscle weakness mainly affecting the lower limbs and resulting in difficulty walking and that has_material_basis_in homozygous or compound heterozygous mutation in the SORD gene on chromosome 15q21.",
+    "synonyms": [
+      "SORDD",
+      "sorbitol dehydrogenase deficiency with peripheral neuropathy"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618912"
+      }
+    ],
+    "parents": [
+      "DOID_0111197"
+    ]
+  },
+  {
+    "id": "DOID_0081428",
+    "name": "autosomal recessive distal hereditary motor neuronopathy 9",
+    "definition": "An autosomal recessive distal hereditary motor neuronopathy characterized by  juvenile onset of distal muscle weakness and atrophy, resulting in gait difficulties and that has_material_basis_in homozygous or compound heterozygous mutation in the COQ7 gene on chromosome 16p12.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620402"
+      }
+    ],
+    "parents": [
+      "DOID_0111197"
+    ]
+  },
+  {
+    "id": "DOID_0081429",
+    "name": "autosomal recessive distal hereditary motor neuronopathy 10",
+    "definition": "An autosomal recessive distal hereditary motor neuronopathy characterized by distal muscle weakness and atrophy predominantly affecting the lower limbs and resulting in gait abnormalities and that has_material_basis_in homozygous or compound heterozygous mutation in the VRK1 gene on chromosome 14q32.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620542"
+      }
+    ],
+    "parents": [
+      "DOID_0111197"
+    ]
+  },
+  {
+    "id": "DOID_0081430",
+    "name": "intellectual developmental disorder with autistic features and language delay, with or without seizures",
+    "definition": "An autosomal dominant intellectual developmental disorder that is characterized by global developmental delay, variable intellectual disability, impaired speech development, and behavioral abnormalities, most commonly on the autism spectrum and that has_material_basis_in heterozygous mutation in the TANC2 gene on chromosome 17q23.",
+    "synonyms": [
+      "IDDALDS"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618906"
+      }
+    ],
+    "parents": [
+      "DOID_0060307"
+    ]
+  },
+  {
+    "id": "DOID_0081431",
+    "name": "microcephaly, short stature, and limb abnormalities",
+    "definition": "An osteochondrodysplasia that is characterized by intrauterine growth retardation, microcephaly, variable short stature, and limb abnormalities mainly affecting the upper limb and radial ray and that has_material_basis_in homozygous or compound heterozygous mutation in the DONSON gene on chromosome 21q22. Biallelic mutation in the DONSON gene can also cause microcephaly-micromelia syndrome, a more severe disorder that usually results in intrauterine or perinatal death.",
+    "synonyms": [
+      "DONSON-related microcephaly-short stature-limb abnormalities spectrum"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:617604"
+      },
+      {
+        "val": "ORDO:572761"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_2256"
+    ]
+  },
+  {
+    "id": "DOID_0081432",
+    "name": "microcephaly-micromelia syndrome",
+    "definition": "A syndrome that is characterized by intrauterine growth retardation (IUGR), marked microcephaly, craniosynostosis, and severe malformation of the limbs, especially the arms and that has_material_basis_in homozygous mutation in the DONSON gene on chromosome 21q22. Biallelic mutation in the DONSON gene can also cause microcephaly, short stature, and limb abnormalities, a less severe disorder.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:251230"
+      },
+      {
+        "val": "ORDO:572768"
+      }
+    ],
+    "parents": [
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0081433",
+    "name": "Peroxisome biogenesis disorder 4B",
+    "definition": "A peroxisomal biogenesis disorder that is characterized by the overlapping phenotypes of neonatal adrenoleukodystrophy and infantile Refsum disease and that has_material_basis_in homozygous or compound heterozygous mutation in the PEX6 gene on chromosome 6p21.1, or overexpression of a heterozygous mutation in PEX6 due to allelic expression imbalance resulting from a polymorphism on the mutant allele in the PEX6 3-prime UTR.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:614863"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_0050737",
+      "DOID_0080377"
+    ]
+  },
+  {
+    "id": "DOID_0081434",
+    "name": "Peroxisome biogenesis disorder 5B",
+    "definition": "A peroxisomal biogenesis disorder that is characterized by the overlapping phenotypes of neonatal adrenoleukodystrophy and infantile Refsum disease and that has_material_basis_in homozygous or compound heterozygous mutation in the PEX2 gene on chromosome 8q21.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:614867"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0080377"
+    ]
+  },
+  {
+    "id": "DOID_0081435",
+    "name": "Peroxisome biogenesis disorder 6B",
+    "definition": "A peroxisomal biogenesis disorder that is characterized by the overlapping phenotypes of neonatal adrenoleukodystrophy and infantile Refsum disease and that has_material_basis_in compound heterozygous mutation in the PEX10 gene on chromosome 1p36.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:614871"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0080377"
+    ]
+  },
+  {
+    "id": "DOID_0081436",
+    "name": "Peroxisome biogenesis disorder 7B",
+    "definition": "A peroxisomal biogenesis disorder that is characterized by the overlapping phenotypes of neonatal adrenoleukodystrophy and infantile Refsum disease and that has_material_basis_in homozygous or compound heterozygous mutation in the PEX26 gene on chromosome 22q11.21.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:614873"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0080377"
+    ]
+  },
+  {
+    "id": "DOID_0081437",
+    "name": "Peroxisome biogenesis disorder 8B",
+    "definition": "A peroxisomal biogenesis disorder that is characterized by the overlapping phenotypes of neonatal adrenoleukodystrophy and infantile Refsum disease and that has_material_basis_in homozygous mutation in the PEX16 gene on chromosome 11p11.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:614877"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0080377"
+    ]
+  },
+  {
+    "id": "DOID_0081438",
+    "name": "Peroxisome biogenesis disorder 9B",
+    "definition": "A peroxisomal biogenesis disorder that is characterized by the overlapping phenotypes of neonatal adrenoleukodystrophy and infantile Refsum disease and that has_material_basis_in homozygous or compound heterozygous mutation in the PEX7 gene on chromosome 6q23.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:614879"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0080377"
+    ]
+  },
+  {
+    "id": "DOID_0081439",
+    "name": "Peroxisome biogenesis disorder 11B",
+    "definition": "A peroxisomal biogenesis disorder that is characterized by the overlapping phenotypes of neonatal adrenoleukodystrophy and infantile Refsum disease and that has_material_basis_in homozygous mutation in the PEX13 gene on chromosome 2p15.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:614885"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0080377"
+    ]
+  },
+  {
+    "id": "DOID_0081440",
+    "name": "Peroxisome biogenesis disorder 10B",
+    "definition": "A peroxisomal biogenesis disorder that is characterized by the overlapping phenotypes of neonatal adrenoleukodystrophy and infantile Refsum disease and that has_material_basis_in compound heterozygous mutation in the PEX3 gene on chromosome 6q24.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:617370"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_0080377"
+    ]
+  },
+  {
+    "id": "DOID_0081441",
+    "name": "Nicolaides-Baraitser syndrome",
+    "definition": "A syndrome that is characterized by severely impaired intellectual development, early-onset seizures, short stature, dysmorphic facial features, and sparse hair and that has_material_basis_in heterozygous mutation in the SMARCA2 gene on chromosome 9p24.",
+    "synonyms": [
+      "Intellectual disability-sparse hair-brachydactyly syndrome",
+      "SPARSE HAIR-IMPAIRED INTELLECTUAL DEVELOPMENT SYNDROME"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:270"
+      },
+      {
+        "val": "MIM:601358"
+      },
+      {
+        "val": "ORDO:3051"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0081442",
+    "name": "blepharophimosis-impaired intellectual development syndrome",
+    "definition": "A syndrome that is characterized by a distinct facial appearance with blepharophimosis and global development delay and that has_material_basis_in heterozygous mutation in the SMARCA2 gene on chromosome 9p24.",
+    "synonyms": [
+      "SMARCA2-related blepharophimosis-intellectual disability syndrome"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:619293"
+      },
+      {
+        "val": "ORDO:637013"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0081443",
+    "name": "Stolerman neurodevelopmental syndrome",
+    "definition": "A syndrome that is characterized by developmental delay, often with motor and speech delay, mildly impaired intellectual development (in most patients), learning difficulties, and behavioral abnormalities, including autism spectrum disorder and that has_material_basis_in heterozygous mutation in the KDM6B gene on chromosome 17p13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618505"
+      }
+    ],
+    "parents": [
+      "DOID_225"
+    ]
+  },
+  {
+    "id": "DOID_0081444",
+    "name": "neurodevelopmental disorder with poor growth and behavioral abnormalities",
+    "definition": "An autosomal recessive intellectual developmental disorder that is characterized by global developmental delay, moderately to severely impaired intellectual development, often with absent speech, and behavioral abnormalities, including hyperactivity, short attention span, and ADHD and that has_material_basis_in homozygous or compound heterozygous mutation in the ATP9A gene on chromosome 20q13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620242"
+      }
+    ],
+    "parents": [
+      "DOID_0060308"
+    ]
+  },
+  {
+    "id": "DOID_0081445",
+    "name": "sickle cell disease",
+    "definition": "A blood protein disease that is characterized by chronic hemolytic anemia and intermittent vaso-occlusive events that result in tissue ischemia leading to acute and chronic pain as well as organ damage that can affect any organ system, resulting from the replacement of one of the beta-globin subunits in hemoglobin with atypical hemoglobin molecules called hemoglobin S which can distort red blood cells into a sickle or crescent shape. Sickle cell disease subtypes should include a detailed genotypic description for the hemoglobin molecules (e.g., Hb S/S, Hb S/C, Hb S/β0-thalassemia).",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:603903"
+      }
+    ],
+    "parents": [
+      "DOID_620"
+    ]
+  },
+  {
+    "id": "DOID_0081446",
+    "name": "dimethylglycine dehydrogenase deficiency",
+    "definition": "An amino acid metabolic disorder that is characterized by a fish-like odor, chronic fatigue, and increased level of the muscle form of creatine kinase in serum and that has_material_basis_in homozygous mutation in the DMGDH on chromosome 5q14.",
+    "synonyms": [
+      "DMG dehydrogenase deficiency"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MIM:605850"
+      },
+      {
+        "val": "ORDO:243343"
+      }
+    ],
+    "parents": [
+      "DOID_0050737",
+      "DOID_9252"
+    ]
+  },
+  {
+    "id": "DOID_0081447",
+    "name": "cone-rod dystrophy 21",
+    "definition": "A cone-rod dystrophy that has_material_basis_in homozygous or compound heterozygous mutation in the DRAM2 gene on chromosome 1p13.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:616502"
+      }
+    ],
+    "parents": [
+      "DOID_0050572",
+      "DOID_0050737"
+    ]
+  },
+  {
+    "id": "DOID_0081448",
+    "name": "cone-rod dystrophy 22",
+    "definition": "A cone-rod dystrophy that is characterized by loss of central vision due to cone photoreceptor degeneration, with onset of symptoms ranging from the first to fifth decades of life and that has_material_basis_in homozygous mutation in the TLCD3B gene on chromosome 16p11.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:619531"
+      }
+    ],
+    "parents": [
+      "DOID_0050572",
+      "DOID_0050737"
+    ]
+  },
+  {
+    "id": "DOID_0081449",
+    "name": "cone-rod dystrophy 24",
+    "definition": "A cone-rod dystrophy that is characterized by night blindness, defective color vision, and reduced visual acuity and that has_material_basis_in heterozygous mutation in the UNC119 gene on chromosome 17q11.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:620342"
+      }
+    ],
+    "parents": [
+      "DOID_0050572",
+      "DOID_0050736"
+    ]
+  },
+  {
+    "id": "DOID_0081450",
+    "name": "hyperimmunoglobulinemia D periodic fever syndrome",
+    "definition": "A hyperimmunoglobulin syndrome that is characterized as periodic fever from early infancy accompanied by elevated serum C-reactive protein and that has_material_basis_in homozygous or compound heterozygous mutation in the gene encoding mevalonate kinase (MVK) on chromosome 12q24.",
+    "synonyms": [
+      "HYPER-IgD SYNDROME"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:2788"
+      },
+      {
+        "val": "MIM:260920"
+      },
+      {
+        "val": "ORDO:343"
+      }
+    ],
+    "parents": [
+      "DOID_2959"
+    ]
+  },
+  {
+    "id": "DOID_0081451",
+    "name": "PFAPA syndrome",
+    "definition": "An autoimmune disease that is characterized by recurrent febrile episodes associated with aphthous stomatitis, pharyngitis and cervical adenitis.",
+    "synonyms": [
+      "Marshall syndrome with periodic fever",
+      "Periodic fever-aphtous stomatitis-pharyngitis-adenopathy syndrome"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "GARD:5657"
+      },
+      {
+        "val": "ORDO:42642"
+      }
+    ],
+    "parents": [
+      "DOID_417"
+    ]
+  },
+  {
+    "id": "DOID_0081452",
+    "name": "large B-cell lymphoma",
+    "definition": "A B-cell lymphoma that is characterized by large lymphoid cells of the B-cell lineage that by definition form sheets or clusters.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [],
+    "parents": [
+      "DOID_707"
+    ]
+  },
+  {
+    "id": "DOID_0081453",
+    "name": "Dent disease 1",
+    "definition": "A Dent disease that is characterized by manifestations of complex proximal tubule dysfunction with low-molecular-weight proteinuria, hypercalciuria, nephrolithiasis, nephrocalcinosis, and progressive renal failure and that has_material_basis_in mutation in the CLCN5 gene on chromosome Xp11. Extra-renal involvement is absent.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#DO_rare_slim"
+    ],
+    "xrefs": [
+      {
+        "val": "MESH:C538212"
+      },
+      {
+        "val": "MIM:300009"
+      },
+      {
+        "val": "ORDO:93622"
+      },
+      {
+        "val": "SNOMEDCT_US_2023_03_01:717789008"
+      },
+      {
+        "val": "UMLS_CUI:C1848336"
+      }
+    ],
+    "parents": [
+      "DOID_0050699"
+    ]
+  },
+  {
+    "id": "DOID_0081454",
+    "name": "Dent disease 2",
+    "definition": "A Dent disease that is characterized by low molecular weight proteinuria and other features of Fanconi syndrome but typically do not include proximal renal tubular acidosis and that has_material_basis_in mutation in the OCRL gene on chromosome Xq26.",
+    "synonyms": [],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MESH:C564487"
+      },
+      {
+        "val": "MIM:300555"
+      },
+      {
+        "val": "SNOMEDCT_US_2023_03_01:717790004"
+      },
+      {
+        "val": "UMLS_CUI:C1845167"
+      }
+    ],
+    "parents": [
+      "DOID_0050699"
+    ]
+  },
+  {
+    "id": "DOID_0081455",
+    "name": "auto-brewery syndrome",
+    "definition": "An acquired metabolic disease that is characterized by the endogenous production of ethanol produced through endogenous fermentation by fungi or bacteria in the gastrointestinal system, oral cavity, or urinary system and typically presents with the signs of alcohol intoxication.",
+    "synonyms": [
+      "auto brewery syndrome",
+      "gut fermentation syndrome"
+    ],
+    "subsets": [],
+    "xrefs": [],
+    "parents": [
+      "DOID_0060158"
+    ]
+  },
+  {
+    "id": "DOID_0081456",
+    "name": "bladder fermentation syndrome",
+    "definition": "An acquired metabolic disease that is characterized by ethanol fermentation in the bladder and the absence of alcoholic intoxication.",
+    "synonyms": [
+      "urinary auto-brewery syndrome"
+    ],
+    "subsets": [],
+    "xrefs": [],
+    "parents": [
+      "DOID_0060158"
+    ]
+  },
+  {
+    "id": "DOID_0081457",
+    "name": "intrathyroid thymic carcinoma",
+    "definition": "A thyroid gland carcinoma composed of groups of carcinoma cells with thymic epithelial differentiation.",
+    "synonyms": [
+      "CASTLE",
+      "Carcinoma showing thymus-like differentiation",
+      "Carcinoma showing thymus-like element",
+      "Intrathyroid thymic carcinoma",
+      "Thyroid_Gland_Carcinoma_Showing_Thymus-Like_Differentiation"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "ICDO:8589/3"
+      },
+      {
+        "val": "NCI:C46106"
+      }
+    ],
+    "parents": [
+      "DOID_3963"
+    ]
+  },
+  {
+    "id": "DOID_0081458",
+    "name": "thyroid gland cribriform morular carcinoma",
+    "definition": "A thyroid gland carcinoma that is characterized by the presence of cribriform, trabecular, follicular, papillary, and solid growth patterns and squamoid morulae formation.",
+    "synonyms": [
+      "CMTC",
+      "Cribriform Morular Thyroid Gland Carcinoma",
+      "Cribriform-Morular Variant Thyroid Gland Papillary Cancer",
+      "Cribriform-Morular Variant Thyroid Gland Papillary Carcinoma",
+      "Thyroid Gland Cribriform Morular Carcinoma"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C126408"
+      }
+    ],
+    "parents": [
+      "DOID_3963"
+    ]
+  },
+  {
+    "id": "DOID_0081459",
+    "name": "thyroid gland mixed medullary and follicular cell-derived carcinoma",
+    "definition": "A thyroid gland carcinoma containing a medullary carcinoma component that is immunohistochemically positive for calcitonin, and follicular cell-derived carcinoma component that is immunohistochemically positive for thyroglobulin.",
+    "synonyms": [
+      "mixed medullary and follicular cell-derived carcinomas"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C46104"
+      }
+    ],
+    "parents": [
+      "DOID_3963"
+    ]
+  },
+  {
+    "id": "DOID_0081460",
+    "name": "thyroid gland mucinous carcinoma",
+    "definition": "A thyroid gland carcinoma that is characterized by the presence of clusters of malignant epithelial cells associated with abundant extracellular mucin deposition.",
+    "synonyms": [],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C156267"
+      }
+    ],
+    "parents": [
+      "DOID_3963"
+    ]
+  },
+  {
+    "id": "DOID_0081461",
+    "name": "thyroid gland spindle epithelial tumor with thymus-like elements",
+    "definition": "A thyroid gland carcinoma that is characterized by a lobulated architectural pattern and the presence of a biphasic cellular population composed of spindle epithelial cells and glandular cells.",
+    "synonyms": [
+      "SETTLE",
+      "Spindle Epithelial Tumor with Thymus-Like Elements",
+      "Thyroid Gland Spindle Cell Tumor with Thymus-Like Differentiation",
+      "Thyroid Gland Spindle Epithelial Tumor with Thymus-Like Elements"
+    ],
+    "subsets": [
+      "http://purl.obolibrary.org/obo/doid#NCIthesaurus"
+    ],
+    "xrefs": [
+      {
+        "val": "NCI:C46105"
+      }
+    ],
+    "parents": [
+      "DOID_3963"
+    ]
+  },
+  {
+    "id": "DOID_0110649",
+    "name": "long QT syndrome 8",
+    "definition": "A long QT syndrome characterized by a prolonged QT interval and polymorphic ventricular tachycardia (torsades de pointes) that has_material_basis_in heterozygous mutation in the CACNA1C gene on chromosome 12p13.33.",
+    "synonyms": [
+      "LQT8"
+    ],
+    "subsets": [],
+    "xrefs": [
+      {
+        "val": "MIM:618447"
+      }
+    ],
+    "parents": [
+      "DOID_0050736",
+      "DOID_2843"
+    ]
+  }
+]
