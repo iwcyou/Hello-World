@@ -1,0 +1,3 @@
+# Tokenizer training/evaluation uses only the Python standard library.
+# PyTorch is optional and only needed for tensor output / GPT usage example.
+torch>=2.0

@@ -6,7 +6,7 @@ __pycache__/
 *.pyd
 rule_files/
 wandb/
-Homework1/gene_related_papers_1000
 outputs/
-*/datasets/
+datasets/
+temp/
 .DS_Store
