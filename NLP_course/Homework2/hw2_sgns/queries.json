@@ -1,0 +1,18 @@
+{
+  "task": "Known-item retrieval: one specified source paper per query, not exhaustive topical relevance judgments",
+  "construction": "Six papers selected in filename order; two queries per paper written from title/abstract before running retrieval; no tuning on these queries.",
+  "queries": [
+    {"id":"q01", "type":"lexical", "text":"lipocalin-2 macrophage iron lung inflammation", "target":"PMC10008694"},
+    {"id":"q02", "type":"paraphrase", "text":"Which study links an iron-binding protein to immune cell iron buildup and oxidative damage in inflamed lungs?", "target":"PMC10008694"},
+    {"id":"q03", "type":"lexical", "text":"histatin-5 zinc streptococci saliva antimicrobial activity", "target":"PMC10012264"},
+    {"id":"q04", "type":"paraphrase", "text":"Which study finds that a salivary peptide fails to kill oral bacteria even when zinc is present?", "target":"PMC10012264"},
+    {"id":"q05", "type":"lexical", "text":"Drosophila sleep cholinergic neurons ventral nerve cord", "target":"PMC10013921"},
+    {"id":"q06", "type":"paraphrase", "text":"Which paper identifies two acetylcholine neurons outside the fly central brain that promote sleep?", "target":"PMC10013921"},
+    {"id":"q07", "type":"lexical", "text":"PTBP1 intestinal epithelial regeneration post-transcriptional", "target":"PMC10018364"},
+    {"id":"q08", "type":"paraphrase", "text":"Which paper studies an RNA-binding protein controlling repair and renewal of the gut lining?", "target":"PMC10018364"},
+    {"id":"q09", "type":"lexical", "text":"FZD2 limb development Wnt beta-catenin", "target":"PMC10073008"},
+    {"id":"q10", "type":"paraphrase", "text":"Which paper studies a frizzled receptor coordinating canonical and noncanonical signaling during limb formation?", "target":"PMC10073008"},
+    {"id":"q11", "type":"lexical", "text":"astrocytic TDP-43 memory antiviral interferon chemokines", "target":"PMC10115456"},
+    {"id":"q12", "type":"paraphrase", "text":"Which study links abnormal RNA-binding protein in brain support cells to memory problems through antiviral immune signals?", "target":"PMC10115456"}
+  ]
+}

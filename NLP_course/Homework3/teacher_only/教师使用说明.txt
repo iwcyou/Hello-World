@@ -1,0 +1,4 @@
+学生发布包仅包含train.jsonl、val.jsonl、test.jsonl、数据说明.txt和emoji_symbol_table.json。
+test.jsonl已提供标签，学生自行实现指标并计算测试结果。
+本目录中的test_references.jsonl仅为同一测试集的教师备份。
+发布脚本及检查记录存放在temp目录，不随学生数据包分发。
