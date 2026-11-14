@@ -1,0 +1,7 @@
+{
+  "representation": "BERT pooler output: tanh(W * CLS + b)",
+  "explained_variance_ratio": [
+    0.19670359790325165,
+    0.10358072072267532
+  ]
+}

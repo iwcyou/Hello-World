@@ -1,0 +1,7 @@
+{
+  "requirements_file": "作业五-BERT微调与中文情感分类.docx",
+  "requirements_sha256": "d6497e6904ab0263d0200109f5a7e9ee08d26dbb115de8a71190c76673dabe4a",
+  "python": "3.13.9",
+  "source_model": "https://huggingface.co/google-bert/bert-base-chinese",
+  "source_dataset": "https://huggingface.co/datasets/lansinuote/ChnSentiCorp"
+}

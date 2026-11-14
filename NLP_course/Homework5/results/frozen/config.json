@@ -1,0 +1,21 @@
+{
+  "model": "google-bert/bert-base-chinese",
+  "model_revision": "8f23c25b06e129b6c986331a13d8d025a92cf0ea",
+  "dataset": "lansinuote/ChnSentiCorp",
+  "dataset_revision": "b0c4c119c3fb33b8e735969202ef9ad13d717e5a",
+  "seed": 42,
+  "mode": "frozen",
+  "batch_size": 8,
+  "max_length": 128,
+  "epochs": 3,
+  "lr": 2e-05,
+  "weight_decay": 0.01,
+  "optimizer": "AdamW",
+  "precision": "bf16 autocast, fp32 parameters",
+  "gradient_clip_norm": 1.0,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+  "torch": "2.9.1+cu128",
+  "parameters": 102269186,
+  "trainable_parameters": 1538,
+  "frozen_encoder_dropout": "disabled"
+}

@@ -1,0 +1,10 @@
+# Local checkpoints, intermediate results and document-generation helpers
+/temp/
+__pycache__/
+*.pyc
+# Guard against accidentally saving large artifacts outside temp
+*.safetensors
+*.pt
+*.pth
+*.npy
+*.log

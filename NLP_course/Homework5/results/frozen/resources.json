@@ -1,0 +1,13 @@
+{
+  "train_seconds": 119.81223472999409,
+  "validation_seconds": 19.69654026767239,
+  "checkpoint_seconds": 3.364232092630118,
+  "train_loop_wall_seconds": 142.90674913674593,
+  "best_epoch": 3,
+  "best_validation_macro_f1": 0.812462362237977,
+  "max_allocated_MiB": 437.16796875,
+  "max_reserved_MiB": 490.0,
+  "nvidia_process_peak_MiB": 1150,
+  "memory_scope": "training and validation; nvidia-smi per-process sampled every 1s",
+  "timing_scope": "data/model loading excluded; shared GPU load affects elapsed time"
+}
